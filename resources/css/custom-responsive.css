@@ -1,0 +1,108 @@
+@media (min-width: 375px) {
+    .navbar > .container .navbar-brand { 
+        letter-spacing: 0;
+    }
+
+    .widgets .socials .social-icon-container {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 425px) {
+    .widgets .author-card .author-image {
+        border: 1px solid #464545;
+        border-radius: 50%;
+        margin: 0 0.5rem 0.5rem 0;
+        float: left;
+        width: 3.6rem;
+        display: block;
+    }
+}
+
+@media (min-width: 425px) {
+    .navbar>.container .navbar-brand {
+        font-size: 1.4rem;
+    }
+
+    .post-image-container {
+        max-width: 10rem;
+        float: left;
+        margin: 1rem 1rem 0.5rem 0;
+    }
+
+    .blog-disclaimer {
+        margin-top: 0.5rem;
+    }
+
+    .about-author img.img-author {
+        border-radius: 10%;
+        max-width: 25rem;
+    }
+    .footer .copyright-label {
+        font-size: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 4rem;
+    }
+
+    /* Menu - START */
+    #navigation-menu .col-xs-12 {
+        padding: initial;
+    }
+
+   .navbar-right {
+        margin-right: 0;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    /* Menu - END */
+
+    .widgets .author-card {
+        display: inline-block;
+    }
+    .widgets .author-card:nth-child(1) > div.col-xs-6 {
+        padding-right: 15px;
+    }
+    .widgets .author-card:nth-child(2) > div.col-xs-6 {
+        padding-left: 15px;
+    }
+    .widgets .socials.col-xs-6 {
+        padding-right: 15px;
+    }
+    .widgets .categories.col-xs-6 {
+        padding-left: 15px;
+    }
+}
+
+/* Bootstrap extensions - START */
+.hidden-xs-inline-block-375 {
+    display: none;
+}
+@media (min-width: 375px) {
+    .hidden-xs-inline-block-375 {
+        display: inline-block;
+    }
+}
+
+.visibile-xs-block-425 {
+    display: block;
+}
+.hidden-xs-block-425 {
+    display: none;
+}
+@media (min-width: 425px) {
+    .visibile-xs-block-425 {
+        display: none;
+    }
+    .hidden-xs-block-425 {
+        display: block;
+    }
+}
+/* Bootstrap extensions - END */
