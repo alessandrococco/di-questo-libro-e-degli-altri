@@ -12,6 +12,11 @@ body {
     padding-right: 17px;
 }
 
+.embed-responsive-16by9 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Workaround for EDGE, otherwise the navbar will shift after a modal is opened */
 @supports (-ms-ime-align: auto) {
     .modal-open .navbar {
@@ -31,7 +36,6 @@ blockquote > footer {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
-    text-align: center;
 }
 
 a,
@@ -42,12 +46,6 @@ a:focus {
 
 main {
     margin-top: 1rem;
-}
-
-/* Workaround for anchor links */
-a.offset-anchor {
-    padding-top: 70px; 
-    margin-top: -70px;
 }
 
 .footer {
@@ -183,8 +181,8 @@ img.book-cover {
 .post-meta .post-meta-author,
 .post-meta .post-meta-read-time {
     font-size: 0.9rem;
-    margin-right: 0.15rem;
-    margin-left: 0.15rem;
+    /*margin-right: 0.15rem;
+    margin-left: 0.15rem;*/
     white-space: nowrap;
     text-transform: lowercase;
 }
