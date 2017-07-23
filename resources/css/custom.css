@@ -17,6 +17,11 @@ body {
     margin-bottom: 1rem;
 }
 
+.badge {
+    color: #000;
+    background: rgb(248, 248, 255);
+}
+
 /* Workaround for EDGE, otherwise the navbar will shift after a modal is opened */
 @supports (-ms-ime-align: auto) {
     .modal-open .navbar {
@@ -36,6 +41,15 @@ blockquote > footer {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
+}
+
+.post h1, .page h1,
+.post h2, .page h2,
+.post h3, .page h3,
+.post h4, .page h4,
+.post h5, .page h5,
+.post h6, .page h6 {
+    text-align: center;
 }
 
 a,
@@ -552,6 +566,7 @@ fieldset[disabled] .btn-info.focus {
     font-size: 1rem;
     margin-bottom: 0.5rem;
     white-space: nowrap;
+    text-transform: lowercase;
 }
 .widgets .author-card .author-description {
     font-size: 0.8rem;
