@@ -73,9 +73,13 @@
     .widgets .author-card:nth-of-type(2) > div.col-xs-6 {
         padding-left: 15px;
     }
+    
+    .widgets .blogroll.col-xs-6,
     .widgets .socials.col-xs-6 {
         padding-right: 15px;
     }
+
+    .widgets .support-us.col-xs-6,
     .widgets .categories.col-xs-6 {
         padding-left: 15px;
     }

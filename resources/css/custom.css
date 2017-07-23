@@ -538,7 +538,7 @@ fieldset[disabled] .btn-info.focus {
 }
 
 /* "Support Us" - START */
-.support-us h3 {
+.page.support-us h3 {
     display: block;
     font-weight: 700;
     font-size: 1.5rem;
@@ -573,9 +573,11 @@ fieldset[disabled] .btn-info.focus {
     font-style: italic;
     margin-bottom: 0;
 }
+.widgets .blogroll.col-xs-6,
 .widgets .socials.col-xs-6 {
     padding-right: 7.5px;
 }
+.widgets .support-us.col-xs-6,
 .widgets .categories.col-xs-6 {
     padding-left: 7.5px;
 }
@@ -583,6 +585,7 @@ fieldset[disabled] .btn-info.focus {
     width: 1.2rem;
     display: none;
 }
+.widgets .blogroll .blog-link,
 .widgets .socials .social-link {
     text-transform: lowercase;
 }
