@@ -58,8 +58,9 @@
     }
 
     .navbar-inverse .navbar-nav>li>a {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 7px;
+        padding-left: 7px;
+    }
     }
 
     /* Menu - END */
@@ -82,6 +83,13 @@
     .widgets .support-us.col-xs-6,
     .widgets .categories.col-xs-6 {
         padding-left: 15px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-inverse .navbar-nav>li>a {
+        padding-right: 10px;
+        padding-left: 10px;
     }
 }
 
