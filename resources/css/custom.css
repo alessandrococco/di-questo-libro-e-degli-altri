@@ -43,12 +43,12 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: lowercase;
 }
 
-.post h1, .page h1,
-.post h2, .page h2,
-.post h3, .page h3,
-.post h4, .page h4,
-.post h5, .page h5,
-.post h6, .page h6 {
+.post h1:not(.panel-title), .page h1,
+.post h2:not(.panel-title), .page h2,
+.post h3:not(.panel-title), .page h3,
+.post h4:not(.panel-title), .page h4,
+.post h5:not(.panel-title), .page h5,
+.post h6:not(.panel-title), .page h6 {
     text-align: center;
 }
 
