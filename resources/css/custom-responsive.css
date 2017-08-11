@@ -61,7 +61,6 @@
         padding-right: 7px;
         padding-left: 7px;
     }
-    }
 
     /* Menu - END */
 
@@ -69,7 +68,7 @@
         display: inline-block;
     }
     .widgets .author-card:nth-of-type(1) > div.col-xs-6 {
-            padding-right: 15px;
+        padding-right: 15px;
     }
     .widgets .author-card:nth-of-type(2) > div.col-xs-6 {
         padding-left: 15px;

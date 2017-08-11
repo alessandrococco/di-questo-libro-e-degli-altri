@@ -572,6 +572,10 @@ fieldset[disabled] .btn-info.focus {
     margin-top: 10px;
     width: 60%;
 }
+
+.widgets .author-card {
+    display: block;
+}
 .widgets .author-card:nth-of-type(1) > div.col-xs-6 {
     padding-right: 7.5px;
 }
