@@ -98,6 +98,10 @@ img.img-responsive {
     max-width: 25rem;
 }
 
+img.img-responsive.album-artwork {
+    max-width: 15rem;
+}
+
 img.book-cover {
     display: block;
     margin: 0 auto;
@@ -481,6 +485,24 @@ fieldset[disabled] .btn-info.focus {
     margin-top: 1rem;
 }
 /* Extra info for 'recensioni' template - END */
+
+/* Extra info for 'musicalmente tratto' template - START */
+.music-info-box {
+    margin: 1rem auto;
+}
+.music-info-box .post-info {
+    margin-bottom: 0;
+    margin-right: 0.25rem;
+}
+.music-info-box .post-info-affiliate {
+    margin-top: 0;
+}
+.music-info-box .post-info,
+.music-info-box .post-info-item-name,
+.music-info-box .post-info-item-content {
+    display: inline-block;
+}
+/* Extra info for 'musicalmente tratto' template - END */
 
 .filter-message.panel {
     text-align: center;
