@@ -17,6 +17,7 @@ body {
     margin-bottom: 1rem;
 }
 
+
 .badge {
     color: #000;
     background: rgb(248, 248, 255);
@@ -703,3 +704,69 @@ fieldset[disabled] .btn-info.focus {
     padding-bottom: 1rem;
 }
 /* Cookies - START */
+
+/* Goodreads - START */
+.gr_custom_container_alessandro,
+.gr_custom_container_elisa {
+    text-transform: lowercase;
+}
+.gr_custom_container_alessandro > center,
+.gr_custom_container_elisa > center,
+.gr_custom_container_alessandro > br,
+.gr_custom_container_elisa > br {
+    /*display: none;*/
+}
+.gr_custom_container_alessandro img,
+.gr_custom_container_elisa img {
+    border: 1px solid #000;
+}
+.gr_custom_header_alessandro,
+.gr_custom_header_elisa {
+    display: none;
+}
+.gr_custom_each_container_alessandro,
+.gr_custom_each_container_elisa {
+    width: 100%;
+    clear: both;
+    margin-bottom: 1rem;
+    padding-bottom: 0.25rem;
+    overflow: auto;
+    text-align: center;
+}
+.gr_custom_each_container_alessandro:last-of-type,
+.gr_custom_each_container_elisa:last-of-type {
+    margin-bottom: 0;
+}
+.gr_custom_title_alessandro,
+.gr_custom_title_elisa {
+    font-size: 1.1rem;
+}
+.gr_custom_book_container_alessandro,
+.gr_custom_book_container_elisa {
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+.gr_custom_author_alessandro,
+.gr_custom_author_elisa {
+    font-size: 0.8rem;
+    text-align: center;
+}
+.gr_custom_tags_alessandro,
+.gr_custom_tags_elisa {
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+.gr_custom_rating_alessandro,
+.gr_custom_rating_elisa {
+    float: right;
+}
+.gr_no_books {
+    text-align: center;
+    display: block;
+    line-height: 1.2;
+    font-size: 1rem;
+}
+/* Goodreads - END */
