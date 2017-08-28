@@ -7,9 +7,12 @@ $(document).ready(function() {
 
     initGoodreads();
 
+    /* Goodreads - START */
     function initGoodreads() {
         noBookMessage('alessandro');
         noBookMessage('elisa');
+        // fixGoodreadsLink('alessandro', 'https://www.goodreads.com/user/show/21784726-alessandro');
+        // fixGoodreadsLink('elisa', 'https://www.goodreads.com/user/show/35167135-elisa');
     }
 
     function noBookMessage(name) {
@@ -18,6 +21,12 @@ $(document).ready(function() {
             $('#gr_custom_widget_' + name + ' br').before(message);
         }
     }
+
+    // function fixGoodreadsLink(who, url) {        
+    //     $('#gr_custom_widget_' + who + ' > div > center > a').attr('href', url);
+    //     $('#gr_custom_widget_' + who + ' > div > center > a').attr('target', '_blank');
+    // }
+    /* Goodreads - END */
 
     function scrollToTopHandler() {
         $('.top-link').on('click', function(e) {

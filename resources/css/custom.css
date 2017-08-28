@@ -714,7 +714,7 @@ fieldset[disabled] .btn-info.focus {
 .gr_custom_container_elisa > center,
 .gr_custom_container_alessandro > br,
 .gr_custom_container_elisa > br {
-    /*display: none;*/
+    display: none;
 }
 .gr_custom_container_alessandro img,
 .gr_custom_container_elisa img {
@@ -762,6 +762,17 @@ fieldset[disabled] .btn-info.focus {
 .gr_custom_rating_alessandro,
 .gr_custom_rating_elisa {
     float: right;
+}
+.gr_name {
+    display: block;
+    text-align: center;
+    margin-top: 1.0rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #ccc;
+}
+.gr_name:first-of-type {
+    margin-top: 0;
 }
 .gr_no_books {
     text-align: center;
