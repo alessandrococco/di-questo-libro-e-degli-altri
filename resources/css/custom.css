@@ -200,15 +200,25 @@ img.book-cover {
 
 .title {
     display: block;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
     margin: 0.25rem auto;
     text-transform: lowercase;
     text-align: center;
+    line-height: 1;
 }
 
 .post-header,
 .page-header {
     margin-top: 1rem;
+}
+
+.post-header .book-title {
+    font-weight: 700;
+}
+.post-header .book-author {
+    font-weight: 400;
+    font-size: 75%;
 }
 
 .post-meta,
@@ -235,9 +245,7 @@ img.book-cover {
 .post-meta .post-meta-comments,
 .post-meta .post-meta-author,
 .post-meta .post-meta-read-time {
-    font-size: 0.9rem;
-    /*margin-right: 0.15rem;
-    margin-left: 0.15rem;*/
+    font-size: 0.75rem;
     white-space: nowrap;
     text-transform: lowercase;
 }
@@ -260,8 +268,8 @@ img.book-cover {
 
 .post .post-footer .tag-list {
     display: block;
-    text-align: center;
-    font-size: 0.9rem;
+    text-align: left;
+    font-size: 0.75rem;
     line-height: 1.5;
     margin: 1rem auto;
 }
@@ -283,6 +291,16 @@ img.book-cover {
 }
 
 /* Post - END */
+
+.post-content span.book-title,
+.post-excerpt span.book-title {
+    font-weight: 700;
+    font-variant: small-caps;
+}
+.post-content span.book-author,
+.post-excerpt span.book-author {
+    font-variant: small-caps;
+}
 
 /* Socials Share - START */
 
@@ -468,7 +486,7 @@ fieldset[disabled] .btn-info.focus {
     margin: 0 auto;
 }
 
-.post .post-footer .read-more-link {
+.post .read-more-link {
     display: block;
     font-size: 1.1rem;
     font-weight: 700;
@@ -627,7 +645,7 @@ fieldset[disabled] .btn-info.focus {
     display: block;
 }
 .widgets .author-card .author-name {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 0.5rem;
     white-space: nowrap;
     text-transform: lowercase;
@@ -768,7 +786,7 @@ fieldset[disabled] .btn-info.focus {
     text-align: center;
     margin-top: 1.0rem;
     margin-bottom: 0.75rem;
-    font-size: 1.1rem;
+    font-size: 1rem;
     border-bottom: 1px solid #ccc;
 }
 .gr_name:first-of-type {
