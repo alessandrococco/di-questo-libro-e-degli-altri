@@ -1,5 +1,12 @@
 [
 {
+"title": "La fabbrica del consenso, Noam Chomsky, Edward S. Herman",
+"category": "recensioni",
+"tags": "recensione, la fabbrica del consenso, noam chomsky, edward s. herman, saggistica, il saggiatore",
+"url": "/2017/10/chomsky-herman-la-fabbrica-del-consenso",
+"date": "2017-10-10 22:55:00 +0200"
+},
+{
 "title": "Senza nome, Wilkie Collins",
 "category": "recensioni",
 "tags": "recensione, senza nome, wilkie collins, letteratura inglese, romanzo, fazi editore",
@@ -553,7 +560,7 @@
 "date": "2015-01-25 11:30:00 +0100"
 },
 {
-"title": "Women Challenge #3",
+"title": "Women Challenge",
 "category": "sfide",
 "tags": "women challenge, emma, jane austen, david golder, irène némirovsky, la casa degli spiriti, isabel allende, kitchen, banana yoshimoto, quando tutto sarà finito, audrey magee",
 "url": "/2015/01/women-challenge",
@@ -2559,6 +2566,13 @@
 "category": "",
 "tags": "",
 "url": "/t/senza-nome/",
+"date": ""
+},
+{
+"title": "post con tag &quot;il saggiatore&quot;",
+"category": "",
+"tags": "",
+"url": "/t/il-saggiatore/",
 "date": ""
 },
 {}

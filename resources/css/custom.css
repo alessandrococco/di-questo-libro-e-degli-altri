@@ -292,13 +292,13 @@ img.book-cover {
 
 /* Post - END */
 
-.post-content span.book-title,
-.post-excerpt span.book-title {
+.post-content span.style-1,
+.post-excerpt span.style-1 {
     font-weight: 700;
     font-variant: small-caps;
 }
-.post-content span.book-author,
-.post-excerpt span.book-author {
+.post-content span.style-2,
+.post-excerpt span.style-2 {
     font-variant: small-caps;
 }
 
@@ -597,6 +597,9 @@ fieldset[disabled] .btn-info.focus {
     padding-right: 2px;
     padding-left: 2px;
 }
+.reviews .review-book-title {
+    font-weight: 700;
+}
 .reviews .review-book-title,
 .reviews .review-book-author {
     text-transform: lowercase;
@@ -787,6 +790,7 @@ fieldset[disabled] .btn-info.focus {
     margin-top: 1.0rem;
     margin-bottom: 0.75rem;
     font-size: 1rem;
+    color: #e95420;
     border-bottom: 1px solid #ccc;
 }
 .gr_name:first-of-type {
