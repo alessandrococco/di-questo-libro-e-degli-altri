@@ -447,7 +447,7 @@
         twitter: {
             label: "Tweet",
             logo: "fa fa-twitter",
-            shareUrl: "https://twitter.com/share?url={url}&text={text}&via={via}&hashtags={hashtags}",
+            shareUrl: "https://twitter.com/share?url={url}&text={text}&hashtags={hashtags}",
             countUrl: ""
         },
 

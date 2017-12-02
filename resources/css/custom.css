@@ -215,10 +215,12 @@ img.book-cover {
 
 .post-header .book-title {
     font-weight: 700;
+    display: block;
 }
 .post-header .book-author {
     font-weight: 400;
     font-size: 75%;
+    display: block;
 }
 
 .post-meta,
