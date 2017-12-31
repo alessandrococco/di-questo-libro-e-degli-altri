@@ -1,5 +1,19 @@
 [
 {
+"title": "Il mio 2017 tra i libri",
+"category": "bilancio annuale",
+"tags": "",
+"url": "/2017/12/il-mio-2017-tra-i-libri",
+"date": "2017-12-31 12:00:00 +0100"
+},
+{
+"title": "Il cerchio, Dave Eggers",
+"category": "recensioni",
+"tags": "recensione, il cerchio, dave eggers, letteratura nordamericana, romanzo, mondadori",
+"url": "/2017/12/eggers-il-cerchio",
+"date": "2017-12-31 11:30:00 +0100"
+},
+{
 "title": "L&#39;incubo di Hill House, Shirley Jackson",
 "category": "recensioni",
 "tags": "recensione, l'incubo di hill house, shirley jackson, letteratura nordamericana, romanzo, adelphi",
@@ -85,8 +99,8 @@
 },
 {
 "title": "Il mio 2016 tra i libri",
-"category": "bilanci",
-"tags": "bilancio, ulisse, james joyce, solaris, stanisław lem, la nausea, jean-paul sartre, l'uomo duplicato, josé saramago, il ballo, irène némirovsky, finzioni, jorge luis borges, the yellow wall-paper, charlotte perkins gilman, la grande storia del tempo, stephen hawking, la banalità del male, hannah arendt, 111 errori di traduzione che hanno cambiato il mondo, romolo giovanni capuano, il dilemma dell'onnivoro, michael pollan, musica",
+"category": "bilancio annuale",
+"tags": "",
 "url": "/2016/12/il-mio-2016-tra-i-libri",
 "date": "2016-12-31 12:00:00 +0100"
 },
@@ -252,10 +266,10 @@
 "date": "2016-01-02 13:20:00 +0100"
 },
 {
-"title": "Il peggio e il meglio del mio 2015 libroso",
-"category": "bilanci",
-"tags": "bilancio, copia-e-incolla, danny wallace, quando tutto sarà finito, audrey magee, caino, josé saramago, i capelli di harold roux, thomas williams, david golder, irène némirovsky, flatlandia, edwin a. abbott, noi, evgenij zamjatin, collasso, jared diamond, il tao della fisica, fritjof capra",
-"url": "/2015/12/bilancio-fine-anno",
+"title": "Il mio 2015 tra i libri",
+"category": "bilancio annuale",
+"tags": "",
+"url": "/2015/12/il-mio-2015-tra-i-libri",
 "date": "2015-12-31 00:20:00 +0100"
 },
 {
@@ -581,10 +595,10 @@
 "date": "2015-01-13 23:00:00 +0100"
 },
 {
-"title": "Bilancio di fine 2014",
-"category": "bilanci",
-"tags": "bilancio, don chisciotte, miguel de cervantes, tempi difficili, canto di natale, charles dickens, il conte di montecristo, alexandre dumas, madame bovary, gustave flaubert, i viaggi di gulliver, jonathan swift, sherlock holmes, arthur conan doyle, arsène lupin, maurice leblanc, il principe e il povero, mark twain, cecità, la caverna, le intermittenze della morte, saggio sulla lucidità, josé saramago, il deserto dei tartari, la boutique del mistero, dino buzzati, niente di nuovo sul fronte occidentale, erich maria remarque, cristo si è fermato a eboli, carlo levi, fontamara, ignazio silone, dune, frank herbert, alla ricerca del tempo perduto, marcel proust",
-"url": "/2014/12/bilancio-fine-anno",
+"title": "Il mio 2014 tra i libri",
+"category": "bilancio annuale",
+"tags": "",
+"url": "/2014/12/il-mio-2014-tra-i-libri",
 "date": "2014-12-30 23:40:00 +0100"
 },
 {
@@ -721,10 +735,10 @@
 "date": ""
 },
 {
-"title": "post nella categoria &quot;bilanci&quot;",
+"title": "post nella categoria &quot;bilancio annuale&quot;",
 "category": "",
 "tags": "",
-"url": "/c/bilanci/",
+"url": "/c/bilancio-annuale/",
 "date": ""
 },
 {
@@ -952,13 +966,6 @@
 "date": ""
 },
 {
-"title": "post con tag &quot;josé saramago&quot;",
-"category": "",
-"tags": "",
-"url": "/t/jose-saramago/p/2/",
-"date": ""
-},
-{
 "title": "post con tag &quot;di questo mondo e degli altri&quot;",
 "category": "",
 "tags": "",
@@ -994,167 +1001,6 @@
 "date": ""
 },
 {
-"title": "post con tag &quot;bilancio&quot;",
-"category": "",
-"tags": "",
-"url": "/t/bilancio/",
-"date": ""
-},
-{
-"title": "post con tag &quot;don chisciotte&quot;",
-"category": "",
-"tags": "",
-"url": "/t/don-chisciotte/",
-"date": ""
-},
-{
-"title": "post con tag &quot;miguel de cervantes&quot;",
-"category": "",
-"tags": "",
-"url": "/t/miguel-de-cervantes/",
-"date": ""
-},
-{
-"title": "post con tag &quot;tempi difficili&quot;",
-"category": "",
-"tags": "",
-"url": "/t/tempi-difficili/",
-"date": ""
-},
-{
-"title": "post con tag &quot;canto di natale&quot;",
-"category": "",
-"tags": "",
-"url": "/t/canto-di-natale/",
-"date": ""
-},
-{
-"title": "post con tag &quot;charles dickens&quot;",
-"category": "",
-"tags": "",
-"url": "/t/charles-dickens/",
-"date": ""
-},
-{
-"title": "post con tag &quot;il conte di montecristo&quot;",
-"category": "",
-"tags": "",
-"url": "/t/il-conte-di-montecristo/",
-"date": ""
-},
-{
-"title": "post con tag &quot;alexandre dumas&quot;",
-"category": "",
-"tags": "",
-"url": "/t/alexandre-dumas/",
-"date": ""
-},
-{
-"title": "post con tag &quot;madame bovary&quot;",
-"category": "",
-"tags": "",
-"url": "/t/madame-bovary/",
-"date": ""
-},
-{
-"title": "post con tag &quot;gustave flaubert&quot;",
-"category": "",
-"tags": "",
-"url": "/t/gustave-flaubert/",
-"date": ""
-},
-{
-"title": "post con tag &quot;i viaggi di gulliver&quot;",
-"category": "",
-"tags": "",
-"url": "/t/i-viaggi-di-gulliver/",
-"date": ""
-},
-{
-"title": "post con tag &quot;jonathan swift&quot;",
-"category": "",
-"tags": "",
-"url": "/t/jonathan-swift/",
-"date": ""
-},
-{
-"title": "post con tag &quot;sherlock holmes&quot;",
-"category": "",
-"tags": "",
-"url": "/t/sherlock-holmes/",
-"date": ""
-},
-{
-"title": "post con tag &quot;arthur conan doyle&quot;",
-"category": "",
-"tags": "",
-"url": "/t/arthur-conan-doyle/",
-"date": ""
-},
-{
-"title": "post con tag &quot;arsène lupin&quot;",
-"category": "",
-"tags": "",
-"url": "/t/arsene-lupin/",
-"date": ""
-},
-{
-"title": "post con tag &quot;maurice leblanc&quot;",
-"category": "",
-"tags": "",
-"url": "/t/maurice-leblanc/",
-"date": ""
-},
-{
-"title": "post con tag &quot;il principe e il povero&quot;",
-"category": "",
-"tags": "",
-"url": "/t/il-principe-e-il-povero/",
-"date": ""
-},
-{
-"title": "post con tag &quot;mark twain&quot;",
-"category": "",
-"tags": "",
-"url": "/t/mark-twain/",
-"date": ""
-},
-{
-"title": "post con tag &quot;la caverna&quot;",
-"category": "",
-"tags": "",
-"url": "/t/la-caverna/",
-"date": ""
-},
-{
-"title": "post con tag &quot;le intermittenze della morte&quot;",
-"category": "",
-"tags": "",
-"url": "/t/le-intermittenze-della-morte/",
-"date": ""
-},
-{
-"title": "post con tag &quot;saggio sulla lucidità&quot;",
-"category": "",
-"tags": "",
-"url": "/t/saggio-sulla-lucidita/",
-"date": ""
-},
-{
-"title": "post con tag &quot;il deserto dei tartari&quot;",
-"category": "",
-"tags": "",
-"url": "/t/il-deserto-dei-tartari/",
-"date": ""
-},
-{
-"title": "post con tag &quot;cristo si è fermato a eboli&quot;",
-"category": "",
-"tags": "",
-"url": "/t/cristo-si-e-fermato-a-eboli/",
-"date": ""
-},
-{
 "title": "post con tag &quot;carlo levi&quot;",
 "category": "",
 "tags": "",
@@ -1162,45 +1008,10 @@
 "date": ""
 },
 {
-"title": "post con tag &quot;fontamara&quot;",
+"title": "post con tag &quot;cristo si è fermato a eboli&quot;",
 "category": "",
 "tags": "",
-"url": "/t/fontamara/",
-"date": ""
-},
-{
-"title": "post con tag &quot;ignazio silone&quot;",
-"category": "",
-"tags": "",
-"url": "/t/ignazio-silone/",
-"date": ""
-},
-{
-"title": "post con tag &quot;dune&quot;",
-"category": "",
-"tags": "",
-"url": "/t/dune/",
-"date": ""
-},
-{
-"title": "post con tag &quot;frank herbert&quot;",
-"category": "",
-"tags": "",
-"url": "/t/frank-herbert/",
-"date": ""
-},
-{
-"title": "post con tag &quot;alla ricerca del tempo perduto&quot;",
-"category": "",
-"tags": "",
-"url": "/t/alla-ricerca-del-tempo-perduto/",
-"date": ""
-},
-{
-"title": "post con tag &quot;marcel proust&quot;",
-"category": "",
-"tags": "",
-"url": "/t/marcel-proust/",
+"url": "/t/cristo-si-e-fermato-a-eboli/",
 "date": ""
 },
 {
@@ -1355,6 +1166,13 @@
 "category": "",
 "tags": "",
 "url": "/t/monte-universita-parma/",
+"date": ""
+},
+{
+"title": "post con tag &quot;le intermittenze della morte&quot;",
+"category": "",
+"tags": "",
+"url": "/t/le-intermittenze-della-morte/",
 "date": ""
 },
 {
@@ -1596,6 +1414,20 @@
 "date": ""
 },
 {
+"title": "post con tag &quot;canto di natale&quot;",
+"category": "",
+"tags": "",
+"url": "/t/canto-di-natale/",
+"date": ""
+},
+{
+"title": "post con tag &quot;charles dickens&quot;",
+"category": "",
+"tags": "",
+"url": "/t/charles-dickens/",
+"date": ""
+},
+{
 "title": "post con tag &quot;riul doamnei&quot;",
 "category": "",
 "tags": "",
@@ -1607,6 +1439,13 @@
 "category": "",
 "tags": "",
 "url": "/t/symphonic-black-metal/",
+"date": ""
+},
+{
+"title": "post con tag &quot;saggio sulla lucidità&quot;",
+"category": "",
+"tags": "",
+"url": "/t/saggio-sulla-lucidita/",
 "date": ""
 },
 {
@@ -1967,17 +1806,17 @@
 "date": ""
 },
 {
-"title": "post con tag &quot;il tao della fisica&quot;",
-"category": "",
-"tags": "",
-"url": "/t/il-tao-della-fisica/",
-"date": ""
-},
-{
 "title": "post con tag &quot;fritjof capra&quot;",
 "category": "",
 "tags": "",
 "url": "/t/fritjof-capra/",
+"date": ""
+},
+{
+"title": "post con tag &quot;il tao della fisica&quot;",
+"category": "",
+"tags": "",
+"url": "/t/il-tao-della-fisica/",
 "date": ""
 },
 {
@@ -2457,27 +2296,6 @@
 "date": ""
 },
 {
-"title": "post con tag &quot;la grande storia del tempo&quot;",
-"category": "",
-"tags": "",
-"url": "/t/la-grande-storia-del-tempo/",
-"date": ""
-},
-{
-"title": "post con tag &quot;stephen hawking&quot;",
-"category": "",
-"tags": "",
-"url": "/t/stephen-hawking/",
-"date": ""
-},
-{
-"title": "post con tag &quot;musica&quot;",
-"category": "",
-"tags": "",
-"url": "/t/musica/",
-"date": ""
-},
-{
 "title": "post con tag &quot;alabarde alabarde&quot;",
 "category": "",
 "tags": "",
@@ -2524,6 +2342,13 @@
 "category": "",
 "tags": "",
 "url": "/t/lucernario/",
+"date": ""
+},
+{
+"title": "post con tag &quot;musica&quot;",
+"category": "",
+"tags": "",
+"url": "/t/musica/",
 "date": ""
 },
 {
@@ -2587,6 +2412,20 @@
 "category": "",
 "tags": "",
 "url": "/t/il-saggiatore/",
+"date": ""
+},
+{
+"title": "post con tag &quot;il cerchio&quot;",
+"category": "",
+"tags": "",
+"url": "/t/il-cerchio/",
+"date": ""
+},
+{
+"title": "post con tag &quot;dave eggers&quot;",
+"category": "",
+"tags": "",
+"url": "/t/dave-eggers/",
 "date": ""
 },
 {}

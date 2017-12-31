@@ -213,14 +213,20 @@ img.book-cover {
     margin-top: 1rem;
 }
 
+.post-header .title {
+    text-transform: initial;
+}
+
 .post-header .book-title {
     font-weight: 700;
     display: block;
+    text-transform: initial;
 }
 .post-header .book-author {
     font-weight: 400;
     font-size: 75%;
     display: block;
+    text-transform: initial;
 }
 
 .post-meta,
@@ -247,7 +253,7 @@ img.book-cover {
 .post-meta .post-meta-comments,
 .post-meta .post-meta-author,
 .post-meta .post-meta-read-time {
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     white-space: nowrap;
     text-transform: lowercase;
 }
@@ -518,7 +524,6 @@ fieldset[disabled] .btn-info.focus {
 .post-info-item-content {
     display: block;
     font-weight: bold;
-    text-transform: lowercase;
 }
 
 .post-info-amazon-text-only,
@@ -588,6 +593,7 @@ fieldset[disabled] .btn-info.focus {
     font-size: 0.9rem;
     text-indent: -1rem;
     margin-left: 1rem;
+    text-transform: initial;
 }
 
 /* Reviews page - START */
@@ -604,7 +610,7 @@ fieldset[disabled] .btn-info.focus {
 }
 .reviews .review-book-title,
 .reviews .review-book-author {
-    text-transform: lowercase;
+    text-transform: initial;
 }
 .reviews .letter-group-list {
     margin-bottom: 1rem;
@@ -731,7 +737,7 @@ fieldset[disabled] .btn-info.focus {
 /* Goodreads - START */
 .gr_custom_container_alessandro,
 .gr_custom_container_elisa {
-    text-transform: lowercase;
+    text-transform: initial;
 }
 .gr_custom_container_alessandro > center,
 .gr_custom_container_elisa > center,
