@@ -177,7 +177,6 @@ img.book-cover {
 }
 
 .menu-item {
-    text-transform: lowercase;
 }
 
 /* Menu - END */
@@ -659,7 +658,6 @@ fieldset[disabled] .btn-info.focus {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
     white-space: nowrap;
-    text-transform: lowercase;
     text-align: center;
 }
 .widgets .author-card .author-description {
@@ -795,6 +793,7 @@ fieldset[disabled] .btn-info.focus {
 .gr_name {
     display: block;
     text-align: center;
+    text-transform: capitalize;
     margin-top: 1.0rem;
     margin-bottom: 0.75rem;
     font-size: 1rem;
