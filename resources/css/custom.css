@@ -40,10 +40,6 @@ blockquote > footer {
     font-style: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    text-transform: lowercase;
-}
-
 .post h1:not(.panel-title):not(.modal-title), .page h1,
 .post h2:not(.panel-title):not(.modal-title), .page h2,
 .post h3:not(.panel-title):not(.modal-title), .page h3,
@@ -201,7 +197,6 @@ img.book-cover {
     font-size: 2rem;
     font-weight: 700;
     margin: 0.25rem auto;
-    text-transform: lowercase;
     text-align: center;
     line-height: 1;
 }
@@ -253,7 +248,6 @@ img.book-cover {
 .post-meta .post-meta-read-time {
     font-size: 0.9rem;
     white-space: nowrap;
-    text-transform: lowercase;
 }
 
 .post .post-excerpt,
@@ -340,12 +334,6 @@ img.book-cover {
     margin: 10px auto;
     /* workaround firefox - https://stackoverflow.com/questions/26306864/firefox-float-bug-how-do-i-get-my-floatright-on-the-same-line */  
     white-space: normal;
-}
-
-.panel-title,
-.modal-title,
-.modal-footer {
-    text-transform: lowercase;
 }
 
 /* Contextual modals - START */
@@ -566,7 +554,6 @@ fieldset[disabled] .btn-info.focus {
 
 .filter-message.panel {
     text-align: center;
-    text-transform: lowercase;
 }
 
 .filter-message.panel .view-all {
@@ -582,10 +569,6 @@ fieldset[disabled] .btn-info.focus {
 
 .archive .post-list {
     margin: 0.5rem 0;
-}
-.archive .month-label,
-.archive .post-label {
-    text-transform: lowercase;
 }
 .archive .post-label {
     font-size: 0.9rem;
@@ -672,20 +655,19 @@ fieldset[disabled] .btn-info.focus {
 .widgets .categories.col-xs-6 {
     padding-left: 7.5px;
 }
-.widgets .blogroll .blog-link,
-.widgets .social-link {
-    text-transform: lowercase;
-}
 .widgets .top-tags .view-all {
     margin-top: 1rem;
     margin-bottom: 0;
 }
 /* WIDGETS - END */
-
+.month-label {
+    text-align: center;
+    display: block;
+    font-style: italic;
+}
 /* Search - START */
 .search .search-result {
     display: block;
-    text-transform: lowercase;
     margin: 0.5rem auto;
     text-align: center;
     line-height: 1.2;
