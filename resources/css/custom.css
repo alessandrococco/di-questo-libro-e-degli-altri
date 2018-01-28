@@ -320,14 +320,6 @@ img.book-cover {
 
 /* Socials Share - END */
 
-/* Disqus - START */
-
-#disqus_thread {
-    margin-top: 1rem;
-}
-
-/* Disqus - END */
-
 .btn-quick-info {
     display: block;
     max-width: 10rem;
@@ -338,72 +330,77 @@ img.book-cover {
 
 /* Contextual modals - START */
 
-    /* Info - START */ 
-    .modal-info .modal-content {
-        background-color: #fff;
-        /*background-color: #d9edf7;*/
-        border-color: #bce8f1;
-        color: #000;
-    }
-    .modal-info .modal-content .modal-header {
-        background-color: #c4e3f3;
-        border-color: #bce8f1;
-        color: #3a87ad;
-    }
-    .modal-info .modal-content .modal-body {
-        border-top-color: #bce8f1;
-    }
-    .modal-info .modal-content .modal-footer + .modal-collapse .modal-body {
-        border-bottom-color: #bce8f1;
-    }
-    /* Info - END */
+.modal-primary .close,
+.modal-primary .modal-title,
+.modal-info .close,
+.modal-info .modal-title {
+    color: #fff;
+}
 
-    /* Primary - START */
-    .modal-primary .modal-content {
-        background-color: #fff;
-        border-color: #e95420;
-        color: #000;
-    }
-    .modal-primary .modal-content .modal-header {
-        background-color: #e95420;
-        border-color: #e95420;
-        color: #fff;
-    }
-    .modal-primary .modal-content .modal-body {
-        border-top-color: #e95420;
-    }
-    .modal-primary .modal-content .modal-footer + .modal-collapse .modal-body {
-        border-bottom-color: #e95420;
-    }
-    /* Primary - END */
+/* Info - START */ 
+.modal-info .modal-content {
+    background-color: #fff;
+    /*background-color: #d9edf7;*/
+    border-color: #336699;
+    color: #000;
+}
+.modal-info .modal-content .modal-header {
+    background-color: #336699;
+    border-color: #336699;
+    color: #fff;
+}
+.modal-info .modal-content .modal-body {
+    border-top-color: #bce8f1;
+}
+.modal-info .modal-content .modal-footer + .modal-collapse .modal-body {
+    border-bottom-color: #bce8f1;
+}
+/* Info - END */
+
+/* Primary - START */
+.modal-primary .modal-content {
+    background-color: #fff;
+    border-color: #e95420;
+    color: #000;
+}
+.modal-primary .modal-content .modal-header {
+    background-color: #e95420;
+    border-color: #e95420;
+    color: #fff;
+}
+.modal-primary .modal-content .modal-body {
+    border-top-color: #e95420;
+}
+.modal-primary .modal-content .modal-footer + .modal-collapse .modal-body {
+    border-bottom-color: #e95420;
+}
+/* Primary - END */
 
 /* Contextual modals - END */
 
-
-
 /* btn-info overrides - START */
 .btn-info {
-    color: #3a87ad;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info:focus,
 .btn-info.focus {
-    color: #3a87ad;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info:hover {
-    color: #3a87ad;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info:active,
 .btn-info.active,
 .open > .dropdown-toggle.btn-info {
-    color: #3a87ad;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info:active:hover,
 .btn-info.active:hover,
@@ -414,9 +411,9 @@ img.book-cover {
 .btn-info:active.focus,
 .btn-info.active.focus,
 .open > .dropdown-toggle.btn-info.focus {
-    color: #3a87ad;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    color: #fff;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info:active,
 .btn-info.active,
@@ -432,8 +429,8 @@ fieldset[disabled] .btn-info:focus,
 .btn-info.disabled.focus,
 .btn-info[disabled].focus,
 fieldset[disabled] .btn-info.focus {
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+    background-color: #336699;
+    border-color: #336699;
 }
 .btn-info .badge {
     color: #bce8f1;
@@ -527,6 +524,10 @@ fieldset[disabled] .btn-info.focus {
 }
 .post-info-amazon-with-image {
     text-align: center;
+}
+.post-info-amazon-with-image > a > img {
+    width: 6rem;
+    margin-bottom: 1rem;
 }
 .post-info-affiliate {
     font-size: 0.75rem;
@@ -692,26 +693,6 @@ fieldset[disabled] .btn-info.focus {
 }
 
 /* Author page - END */
-
-/* Cookies - START */
-.cookie-disclaimer {
-    background: #000;
-    color: #fff;
-    opacity: 0.9;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    z-index: 1;
-    position: fixed;
-    display: none;
-}
-
-.cookie-disclaimer .container {
-    text-align: center;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
-/* Cookies - START */
 
 /* Goodreads - START */
 .gr_custom_container_alessandro,
