@@ -694,6 +694,14 @@ fieldset[disabled] .btn-info.focus {
 
 /* Author page - END */
 
+.text-muted {
+    color: #fff;
+}
+
+a {
+    color: orange;
+}
+
 /* Goodreads - START */
 .gr_custom_container_alessandro,
 .gr_custom_container_elisa {
@@ -759,7 +767,8 @@ fieldset[disabled] .btn-info.focus {
     margin-top: 1.0rem;
     margin-bottom: 0.75rem;
     font-size: 1rem;
-    color: #e95420;
+    /* color: #e95420; */
+    color: orange;
     border-bottom: 1px solid #ccc;
 }
 .gr_name:first-of-type {
