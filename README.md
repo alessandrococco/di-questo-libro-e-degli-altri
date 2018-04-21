@@ -1,5 +1,5 @@
 # di questo libro e degli altri
 
-Alessandro Cocco's blog about books and music. 
+Alessandro Cocco's blog about books.
 
-All rights reserved.
+&copy; Alessandro Cocco 2014-2018

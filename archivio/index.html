@@ -4,749 +4,2029 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<meta name="robots" content="index,follow">
+<meta name="robots" content="index, follow">
 <meta name="author" content="Alessandro Cocco">
-<meta name="keywords" content="libri,recensioni,libro,recensione,blog,letteratura,cultura,goodreads">
-<meta name="description" content="libri, musica e altre cose">
-<meta name="google-site-verification" content="33RaTIUv_RyGoUgYiIeA0RTFKbXmDOxEuM7R5cztRZw">
-<meta name="msvalidate.01" content="DA68DBE4B3A097FB502461B610F1D02F">
+<meta name="keywords" content="libri, recensioni, libro, recensione, blog, letteratura, cultura, goodreads">
+<meta name="description" content="Libri recensiti da un lettore compulsivo col pallino per Poe, Saramago e la buona musica">
 <title>Archivio - di questo libro e degli altri</title>
-<meta property="og:type" content="article">
-<meta property="og:locale" content="it_IT">
-<meta property="og:site_name" content="di questo libro e degli altri">
-<meta property="og:title" content="Archivio - di questo libro e degli altri">
-<meta property="og:url" content="http://diquestolibroedeglialtri.review/archivio/">
-<meta property="og:description" content="L’archivio di tutti i post che abbiamo pubblicato a partire da novembre 2014">
-<meta property="fb:app_id" content="320362148167461">
-<meta property="article:author" content="1543888037">
-<meta property="article:publisher" content="709333152522458">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Archivio - di questo libro e degli altri">
-<meta name="twitter:description" content="L’archivio di tutti i post che abbiamo pubblicato a partire da novembre 2014">
-<meta name="twitter:url" content="http://diquestolibroedeglialtri.review/archivio/">
-<link rel="stylesheet" type="text/css" href="http://diquestolibroedeglialtri.review/resources/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="http://diquestolibroedeglialtri.review/resources/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="http://diquestolibroedeglialtri.review/resources/css/custom.css">
-<link rel="stylesheet" type="text/css" href="http://diquestolibroedeglialtri.review/resources/css/custom-responsive.css">
-<link rel="alternate" type="application/rss+xml" title="di questo libro e degli altri RSS" href="http://diquestolibroedeglialtri.review/feed.xml">
-<!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-<![endif]-->
+<link rel="stylesheet" href="http://diquestolibroedeglialtri.review/resources/css/bulma.min.css">
+<link rel="stylesheet" href="http://diquestolibroedeglialtri.review/resources/css/bulma-tooltip.min.css">
+<link rel="stylesheet" href="http://diquestolibroedeglialtri.review/resources/css/bulma-timeline.min.css">
+<link rel="stylesheet" href="http://diquestolibroedeglialtri.review/resources/css/ionicons.min.css">
+<link rel="stylesheet" href="http://diquestolibroedeglialtri.review/resources/css/custom.css">
 </head>
 <body>
-<nav id="navigation-menu" class="navbar navbar-default navbar-fixed-top">
+<div class="navigation-bar container">
+<div class="notification is-dark">
+<div class="level">
+<div class="level-left">
+<div class="level-item has-text-centered">
+<div>
+<p class="heading is-size-5 is-size-3-mobile has-text-weight-bold has-line-height-1">
+<a href="http://diquestolibroedeglialtri.review">di questo libro e degli altri</a>
+</p>
+</div>
+</div>
+</div>
+<div class="level-right navigation-items">
+<div class="level-item has-text-centered">
+<div id="aboutUsDropdown" class="ac-dropdown has-text-left">
+<a
+onclick="javascript:toggleDropdown('aboutUsDropdown', 'true')"
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop ac-dropdown-toggle ">chi siamo <i class="icon is-small ion-ios-arrow-down"></i>
+</a>
+<div class="dropdown-content">
+<a
+href="/chi-siamo/alessandro/"
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop has-text-centered-mobile has-text-left-tablet is-block">Alessandro</a>
+<a
+href="/chi-siamo/elisa/"
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop has-text-centered-mobile has-text-left-tablet is-block">Elisa</a>
+</div>
+</div>
+</div>
+<div class="level-item has-text-centered">
+<a
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop "
+href="http://diquestolibroedeglialtri.review/recensioni/">recensioni</a>
+</div>
+<div class="level-item has-text-centered">
+<a
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop "
+href="http://diquestolibroedeglialtri.review/contatti/">contatti</a>
+</div>
+<div class="level-item has-text-centered">
+<a
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop has-text-weight-bold"
+href="http://diquestolibroedeglialtri.review/archivio/">archivio</a>
+</div>
+<div class="level-item has-text-centered">
+<a
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop "
+href="javascript:toggleModal('modal-search')">cerca</a>
+</div>
+<div class="level-item has-text-centered">
+<a
+class="heading is-size-5-mobile is-size-7-tablet is-size-6-desktop "
+href="http://diquestolibroedeglialtri.review/feed.xml">RSS</a>
+</div>
+<!-- <div class="level-item has-text-centered is-hidden-tablet is-size-3-mobile">
+<a href="#header"><i class="icon is-large ion-chevron-down"></i></a>
+</div> -->
+</div>
+</div>
+</div>
+</div>
+<noscript>
+<div class="no-script-panel">
 <div class="container">
-<div class="row">
-<div class="col-xs-12 col-md-offset-1 col-md-10">
-<div class="navbar-header">
-<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-panel" aria-expanded="false">
-<span class="sr-only">Menu</span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-<span class="icon-bar"></span>
-</button>
-<a class="navbar-brand" href="http://diquestolibroedeglialtri.review">di questo libro e degli altri</a>
-</div>
-<div class="collapse navbar-collapse" id="menu-panel">
-<ul class="nav navbar-nav navbar-right">
-<li class="dropdown menu-item">
-<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">chi siamo<span class="caret"></span></a>
-<ul class="dropdown-menu">
-<li class="menu-item">
-<a href="http://diquestolibroedeglialtri.review/chi-siamo/alessandro">Alessandro</a>
-</li>
-<li class="menu-item">
-<a href="http://diquestolibroedeglialtri.review/chi-siamo/elisa">Elisa</a>
-</li>
-</ul>
-</li>
-<li class="menu-item">
-<a href="http://diquestolibroedeglialtri.review/recensioni/">recensioni</a>
-</li>
-<li class="menu-item">
-<a href="http://diquestolibroedeglialtri.review/contatti/">contatti</a>
-</li>
-<li class="menu-item">
-<a href="http://diquestolibroedeglialtri.review/archivio/">archivio</a>
-</li>
-</ul>
+<div class="notification is-danger">
+<div class="content">
+<p class="is-size-6">
+<span class="has-text-weight-bold">Attenzione!</span> Javascript non è attivo sul tuo browser, pertanto alcune funzionalità del sito potrebbero non funzionare correttamente (commenti, cookie, ecc.): ti consigliamo di riattivare Javascript e di aggiornare la pagina! 🙂
+</p>
 </div>
 </div>
 </div>
 </div>
-</nav>
-<main>
+</noscript>
 <div class="container">
-<div class="row">
-<div class="col-sx-12 visible-xs-block fake-search-xs">
-<div class="panel">
-<div class="input-group">
-<input type="text" class="search-input-fake form-control" placeholder="cerca nel sito&hellip;">
-<span class="input-group-btn">
-<button class="btn btn-primary search-button" type="button">
-<i class="fa fa-search" aria-hidden="true"></i>
-</button>
+<div class="columns">
+<div class="column is-8">
+<section class="archivio">
+<section class="hero is-info">
+<div class="hero-body">
+<span class="title heading is-size-4">Archivio</span>
+</div>
+</section>
+<section class="message is-large is-info">
+<div class="message-body">
+<div class="content">
+<div class="timeline">
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="21 aprile 2018">21</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2018/04/di-questo-libro-e-degli-altri-v-8-1">
+<span>
+di questo libro e degli altri - versione 8.1
+</span></a>
 </span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
 </div>
 </div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">aprile 2018</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="27 marzo 2018">27</span>
 </div>
-</div>
-<div class="row">
-<div class="col-xs-12 col-sm-offset-0 col-sm-8 col-md-offset-1 col-md-7">
-<div class="page-wrapper page archive">
-<div class="page-header">
-<h2 class="title">Archivio</h2>
-</div>
-<div class="page-content">
-<span class="month-label">marzo 2018</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-27 - <a href="http://diquestolibroedeglialtri.review/2018/03/kafka-il-processo">Il processo, Franz Kafka</a></span>
-</li>
-</ul>
-<span class="month-label">febbraio 2018</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-19 - <a href="http://diquestolibroedeglialtri.review/2018/02/rochon-the-dictator-s-practical-internet-guide-to-power-retention">The Dictator's Practical Internet Guide to Power Retention, Laurier Rochon</a></span>
-</li>
-<li class="post-label">
-13 - <a href="http://diquestolibroedeglialtri.review/2018/02/kristof-trilogia-della-citta-di-k">Trilogia della città di K., Ágota Kristóf</a></span>
-</li>
-</ul>
-<span class="month-label">gennaio 2018</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-20 - <a href="http://diquestolibroedeglialtri.review/2018/01/saramago-la-zattera-di-pietra">La zattera di pietra, José Saramago</a></span>
-</li>
-</ul>
-<span class="month-label">dicembre 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-31 - <a href="http://diquestolibroedeglialtri.review/2017/12/il-mio-2017-tra-i-libri">Il mio 2017 tra i libri</a></span>
-</li>
-<li class="post-label">
-31 - <a href="http://diquestolibroedeglialtri.review/2017/12/eggers-il-cerchio">Il cerchio, Dave Eggers</a></span>
-</li>
-<li class="post-label">
-08 - <a href="http://diquestolibroedeglialtri.review/2017/12/jackson-l-incubo-di-hill-house">L'incubo di Hill House, Shirley Jackson</a></span>
-</li>
-</ul>
-<span class="month-label">ottobre 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-10 - <a href="http://diquestolibroedeglialtri.review/2017/10/chomsky-herman-la-fabbrica-del-consenso">La fabbrica del consenso, Noam Chomsky, Edward S. Herman</a></span>
-</li>
-</ul>
-<span class="month-label">agosto 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-16 - <a href="http://diquestolibroedeglialtri.review/2017/08/collins-senza-nome">Senza nome, Wilkie Collins</a></span>
-</li>
-<li class="post-label">
-11 - <a href="http://diquestolibroedeglialtri.review/2017/08/ahab-the-call-of-the-wretched-sea">The Call of the Wretched Sea, Ahab / Moby Dick, Herman Melville</a></span>
-</li>
-</ul>
-<span class="month-label">luglio 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-23 - <a href="http://diquestolibroedeglialtri.review/2017/07/melville-moby-dick">Moby Dick, Herman Melville</a></span>
-</li>
-<li class="post-label">
-12 - <a href="http://diquestolibroedeglialtri.review/2017/07/si-riparte">Si (ri)parte!</a></span>
-</li>
-</ul>
-<span class="month-label">maggio 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-16 - <a href="http://diquestolibroedeglialtri.review/2017/05/locanda-delle-fate-live-at-club-il-giardino-vr">LOCANDA DELLE FATE live @ Club "Il Giardino" (VR)</a></span>
-</li>
-<li class="post-label">
-11 - <a href="http://diquestolibroedeglialtri.review/2017/05/novita-in-arrivo">Novità in arrivo :-)</a></span>
-</li>
-</ul>
-<span class="month-label">aprile 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-02 - <a href="http://diquestolibroedeglialtri.review/2017/04/saramago-lucernario">Lucernario, José Saramago</a></span>
-</li>
-</ul>
-<span class="month-label">marzo 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-05 - <a href="http://diquestolibroedeglialtri.review/2017/03/benni-cari-mostri">Cari mostri, Stefano Benni</a></span>
-</li>
-</ul>
-<span class="month-label">gennaio 2017</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-26 - <a href="http://diquestolibroedeglialtri.review/2017/01/aavv-le-mille-e-una-notte">Le mille e una notte, AA.VV.</a></span>
-</li>
-<li class="post-label">
-05 - <a href="http://diquestolibroedeglialtri.review/2017/01/saramago-alabarde-alabarde">Alabarde alabarde, José Saramago</a></span>
-</li>
-</ul>
-<span class="month-label">dicembre 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-31 - <a href="http://diquestolibroedeglialtri.review/2016/12/il-mio-2016-tra-i-libri">Il mio 2016 tra i libri</a></span>
-</li>
-<li class="post-label">
-29 - <a href="http://diquestolibroedeglialtri.review/2016/12/libri-sotto-l-albero">Libri sotto l'albero (edizione 2016)</a></span>
-</li>
-<li class="post-label">
-26 - <a href="http://diquestolibroedeglialtri.review/2016/12/joyce-ulisse">Ulisse, James Joyce</a></span>
-</li>
-</ul>
-<span class="month-label">novembre 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-09 - <a href="http://diquestolibroedeglialtri.review/2016/11/lem-solaris">Solaris, Stanisław Lem</a></span>
-</li>
-</ul>
-<span class="month-label">settembre 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-24 - <a href="http://diquestolibroedeglialtri.review/2016/09/sartre-la-nausea">La nausea, Jean-Paul Sartre</a></span>
-</li>
-</ul>
-<span class="month-label">giugno 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-29 - <a href="http://diquestolibroedeglialtri.review/2016/06/arendt-la-banalita-del-male">La banalità del male: Eichmann a Gerusalemme, Hannah Arendt</a></span>
-</li>
-<li class="post-label">
-19 - <a href="http://diquestolibroedeglialtri.review/2016/06/di-sepio-simple-e-madama-3-tandem">Simple&Madama 3: Tandem, Lorenza Di Sepio</a></span>
-</li>
-<li class="post-label">
-13 - <a href="http://diquestolibroedeglialtri.review/2016/06/saramago-l-uomo-duplicato">L'uomo duplicato, José Saramago</a></span>
-</li>
-<li class="post-label">
-07 - <a href="http://diquestolibroedeglialtri.review/2016/06/gilman-the-yellow-wall-paper">The Yellow Wall-Paper, Charlotte Perkins Gilman</a></span>
-</li>
-</ul>
-<span class="month-label">maggio 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-29 - <a href="http://diquestolibroedeglialtri.review/2016/05/reza-felici-i-felici">Felici i felici, Yasmina Reza</a></span>
-</li>
-<li class="post-label">
-22 - <a href="http://diquestolibroedeglialtri.review/2016/05/metallica-for-whom-the-bell-tolls">For Whom the Bell Tolls, Metallica / Per chi suona la campana, Ernest Hemingway</a></span>
-</li>
-<li class="post-label">
-17 - <a href="http://diquestolibroedeglialtri.review/2016/05/shelley-frankenstein">Frankenstein, Mary Wollstonecraft Shelley</a></span>
-</li>
-<li class="post-label">
-05 - <a href="http://diquestolibroedeglialtri.review/2016/05/capuano-111-errori-di-traduzione-che-hanno-cambiato-il-mondo">111 errori di traduzione che hanno cambiato il mondo, Romolo Giovanni Capuano</a></span>
-</li>
-</ul>
-<span class="month-label">aprile 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-25 - <a href="http://diquestolibroedeglialtri.review/2016/04/nemirovsky-il-ballo">Il ballo, Irène Némirovsky</a></span>
-</li>
-<li class="post-label">
-17 - <a href="http://diquestolibroedeglialtri.review/2016/04/pollan-il-dilemma-dell-onnivoro">Il dilemma dell'onnivoro, Michael Pollan</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2016/04/collins-la-donna-in-bianco">La donna in bianco, Wilkie Collins</a></span>
-</li>
-</ul>
-<span class="month-label">marzo 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-30 - <a href="http://diquestolibroedeglialtri.review/2016/03/fitzgerald-tenera-e-la-notte">Tenera è la notte, Francis Scott Fitzgerald</a></span>
-</li>
-<li class="post-label">
-15 - <a href="http://diquestolibroedeglialtri.review/2016/03/james-giro-di-vite">Giro di vite, Henry James</a></span>
-</li>
-</ul>
-<span class="month-label">febbraio 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-20 - <a href="http://diquestolibroedeglialtri.review/2016/02/d-amicis-quando-eravamo-prede">Quando eravamo prede, Carlo D'Amicis</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2016/02/borges-finzioni">Finzioni, Jorge Luis Borges</a></span>
-</li>
-</ul>
-<span class="month-label">gennaio 2016</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-12 - <a href="http://diquestolibroedeglialtri.review/2016/01/sacks-allucinazioni">Allucinazioni, Oliver Sacks</a></span>
-</li>
-<li class="post-label">
-07 - <a href="http://diquestolibroedeglialtri.review/2016/01/austen-ragione-e-sentimento">Ragione e sentimento, Jane Austen</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2016/01/irving-la-leggenda-di-sleepy-hollow">La leggenda di Sleepy Hollow, Washington Irving</a></span>
-</li>
-<li class="post-label">
-02 - <a href="http://diquestolibroedeglialtri.review/2016/01/capra-il-tao-della-fisica">Il Tao della fisica, Fritjof Capra</a></span>
-</li>
-</ul>
-<span class="month-label">dicembre 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-31 - <a href="http://diquestolibroedeglialtri.review/2015/12/il-mio-2015-tra-i-libri">Il mio 2015 tra i libri</a></span>
-</li>
-<li class="post-label">
-26 - <a href="http://diquestolibroedeglialtri.review/2015/12/abbott-flatlandia">Flatlandia: racconto fantastico a più dimensioni, Edwin A. Abbott</a></span>
-</li>
-<li class="post-label">
-20 - <a href="http://diquestolibroedeglialtri.review/2015/12/concorso-capricci-d-inchiostro">Concorso Capricci d'inchiostro - È arrivato Babbo Natale (in anticipo)!</a></span>
-</li>
-<li class="post-label">
-12 - <a href="http://diquestolibroedeglialtri.review/2015/12/wells-nel-paese-dei-ciechi">Nel paese dei ciechi, H.G. Wells</a></span>
-</li>
-<li class="post-label">
-07 - <a href="http://diquestolibroedeglialtri.review/2015/12/wallace-copia-e-incolla">Copia-e-incolla, Danny Wallace</a></span>
-</li>
-</ul>
-<span class="month-label">novembre 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-24 - <a href="http://diquestolibroedeglialtri.review/2015/11/williams-i-capelli-di-harold-roux">I capelli di Harold Roux, Thomas Williams</a></span>
-</li>
-<li class="post-label">
-15 - <a href="http://diquestolibroedeglialtri.review/2015/11/diamond-collasso">Collasso: come le società scelgono di morire o vivere, Jared Diamond</a></span>
-</li>
-<li class="post-label">
-10 - <a href="http://diquestolibroedeglialtri.review/2015/11/nightwish-the-phantom-of-the-opera">The Phantom of the Opera, Nightwish / Il fantasma dell'Opera, Gaston Leroux</a></span>
-</li>
-<li class="post-label">
-09 - <a href="http://diquestolibroedeglialtri.review/2015/11/primo-compleanno">Buon compleanno, di questo libro e degli altri!</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2015/11/jackson-la-lotteria">La lotteria, Shirley Jackson</a></span>
-</li>
-<li class="post-label">
-02 - <a href="http://diquestolibroedeglialtri.review/2015/11/de-laclos-le-relazioni-pericolose">Le relazioni pericolose, Pierre-Ambroise-François Choderlos de Laclos</a></span>
-</li>
-</ul>
-<span class="month-label">ottobre 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-22 - <a href="http://diquestolibroedeglialtri.review/2015/10/tabucchi-sostiene-pereira">Sostiene Pereira, Antonio Tabucchi</a></span>
-</li>
-<li class="post-label">
-14 - <a href="http://diquestolibroedeglialtri.review/2015/10/concorso-fazi-i-capelli-di-harold-roux">Concorso Fazi Editore - I capelli di Harold Roux</a></span>
-</li>
-<li class="post-label">
-11 - <a href="http://diquestolibroedeglialtri.review/2015/10/viscusi-dimenticami-trovami-sognami">Dimenticami Trovami Sognami, Andrea Viscusi</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2015/10/saramago-caino">Caino, José Saramago</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2015/10/concorso-kleiner-flug-morte-rossa">Concorso Kleiner Flug - La maschera della Morte Rossa</a></span>
-</li>
-</ul>
-<span class="month-label">settembre 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-13 - <a href="http://diquestolibroedeglialtri.review/2015/09/magee-quando-tutto-sara-finito">Quando tutto sarà finito, Audrey Magee</a></span>
-</li>
-</ul>
-<span class="month-label">agosto 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-19 - <a href="http://diquestolibroedeglialtri.review/2015/08/shaxson-le-isole-del-tesoro">Le isole del tesoro: viaggio nei paradisi fiscali dove è nascosto il tesoro della globalizzazione, Nicholas Shaxson</a></span>
-</li>
-<li class="post-label">
-04 - <a href="http://diquestolibroedeglialtri.review/2015/08/aavv-le-leggende-di-ferhaven-1">Le leggende di Ferhaven (volume primo) - AA.VV.</a></span>
-</li>
-</ul>
-<span class="month-label">luglio 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-06 - <a href="http://diquestolibroedeglialtri.review/2015/07/hesse-il-lupo-della-steppa">Il lupo della steppa, Hermann Hesse</a></span>
-</li>
-</ul>
-<span class="month-label">giugno 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-13 - <a href="http://diquestolibroedeglialtri.review/2015/06/opera-magna-poe">Poe, Opera Magna / Edgar Allan Poe</a></span>
-</li>
-</ul>
-<span class="month-label">maggio 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-30 - <a href="http://diquestolibroedeglialtri.review/2015/05/schnitzler-doppio-sogno">Doppio sogno, Arthur Schnitzler</a></span>
-</li>
-<li class="post-label">
-18 - <a href="http://diquestolibroedeglialtri.review/2015/05/zamjatin-noi">Noi, Evgenij Zamjatin</a></span>
-</li>
-<li class="post-label">
-08 - <a href="http://diquestolibroedeglialtri.review/2015/05/hugo-notre-dame-de-paris">Notre-Dame de Paris, Victor Hugo</a></span>
-</li>
-<li class="post-label">
-02 - <a href="http://diquestolibroedeglialtri.review/2015/05/saramago-saggio-sulla-lucidita">Saggio sulla lucidità, José Saramago</a></span>
-</li>
-</ul>
-<span class="month-label">aprile 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-25 - <a href="http://diquestolibroedeglialtri.review/2015/04/riul-doamnei-a-christmas-carol">A Christmas Carol, Riul Doamnei / Canto di Natale, Charles Dickens</a></span>
-</li>
-<li class="post-label">
-19 - <a href="http://diquestolibroedeglialtri.review/2015/04/dennis-zia-mame">Zia Mame, Patrick Dennis</a></span>
-</li>
-<li class="post-label">
-12 - <a href="http://diquestolibroedeglialtri.review/2015/04/yoshimoto-kitchen">Kitchen, Banana Yoshimoto</a></span>
-</li>
-<li class="post-label">
-09 - <a href="http://diquestolibroedeglialtri.review/2015/04/iron-maiden-brave-new-world">Brave New World, Iron Maiden / Il mondo nuovo, Aldoux Huxley</a></span>
-</li>
-<li class="post-label">
-05 - <a href="http://diquestolibroedeglialtri.review/2015/04/allende-la-casa-degli-spiriti">La casa degli spiriti, Isabel Allende</a></span>
-</li>
-<li class="post-label">
-03 - <a href="http://diquestolibroedeglialtri.review/2015/04/legittimo-brigantaggio-la-lettera-viola">La lettera viola, Legittimo Brigantaggio / Le intermittenze delle morte, José Saramago</a></span>
-</li>
-<li class="post-label">
-01 - <a href="http://diquestolibroedeglialtri.review/2015/04/musicalmente-tratto">Tutto pronto per la mia prima rubrica!</a></span>
-</li>
-</ul>
-<span class="month-label">marzo 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-29 - <a href="http://diquestolibroedeglialtri.review/2015/03/salinger-il-giovane-holden">Il giovane Holden, J.D. Salinger</a></span>
-</li>
-<li class="post-label">
-24 - <a href="http://diquestolibroedeglialtri.review/2015/03/giveaway-sesto-compleanno-stamberga">Concorso La Stamberga dei Lettori - Sesto compleanno</a></span>
-</li>
-<li class="post-label">
-22 - <a href="http://diquestolibroedeglialtri.review/2015/03/mann-i-buddenbrook">I Buddenbrook, Thomas Mann</a></span>
-</li>
-<li class="post-label">
-15 - <a href="http://diquestolibroedeglialtri.review/2015/03/nemirovsky-suite-francese">Suite francese, Irène Némirovsky</a></span>
-</li>
-<li class="post-label">
-08 - <a href="http://diquestolibroedeglialtri.review/2015/03/nabokov-invito-a-una-decapitazione">Invito a una decapitazione, Vladimir Nabokov</a></span>
-</li>
-<li class="post-label">
-01 - <a href="http://diquestolibroedeglialtri.review/2015/03/diamond-armi-acciaio-e-malattie">Armi, acciaio e malattie: breve storia del mondo negli ultimi tredicimila anni, Jared Diamond</a></span>
-</li>
-</ul>
-<span class="month-label">febbraio 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-22 - <a href="http://diquestolibroedeglialtri.review/2015/02/golding-il-signore-delle-mosche">Il signore delle mosche, William Golding</a></span>
-</li>
-<li class="post-label">
-11 - <a href="http://diquestolibroedeglialtri.review/2015/02/nemirovsky-david-golder">David Golder, Irène Némirovsky</a></span>
-</li>
-<li class="post-label">
-08 - <a href="http://diquestolibroedeglialtri.review/2015/02/matheson-io-sono-leggenda">Io sono leggenda, Richard Matheson</a></span>
-</li>
-<li class="post-label">
-05 - <a href="http://diquestolibroedeglialtri.review/2015/02/saramago-le-intermittenze-della-morte">Le intermittenze della morte, José Saramago</a></span>
-</li>
-<li class="post-label">
-02 - <a href="http://diquestolibroedeglialtri.review/2015/02/zamjatin-a-casa-del-diavolo">A casa del diavolo, Evgenij Zamjatin</a></span>
-</li>
-</ul>
-<span class="month-label">gennaio 2015</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-31 - <a href="http://diquestolibroedeglialtri.review/2015/01/austen-emma">Emma, Jane Austen</a></span>
-</li>
-<li class="post-label">
-25 - <a href="http://diquestolibroedeglialtri.review/2015/01/simmons-i-canti-di-hyperion">I Canti di Hyperion, Dan Simmons</a></span>
-</li>
-<li class="post-label">
-18 - <a href="http://diquestolibroedeglialtri.review/2015/01/women-challenge">Women Challenge</a></span>
-</li>
-<li class="post-label">
-13 - <a href="http://diquestolibroedeglialtri.review/2015/01/levi-cristo-si-e-fermato-a-eboli">Cristo si è fermato a Eboli, Carlo Levi</a></span>
-</li>
-</ul>
-<span class="month-label">dicembre 2014</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-30 - <a href="http://diquestolibroedeglialtri.review/2014/12/il-mio-2014-tra-i-libri">Il mio 2014 tra i libri</a></span>
-</li>
-<li class="post-label">
-21 - <a href="http://diquestolibroedeglialtri.review/2014/12/saramago-cecita">Cecità, José Saramago</a></span>
-</li>
-<li class="post-label">
-14 - <a href="http://diquestolibroedeglialtri.review/2014/12/saramago-di-questo-mondo-e-degli-altri">Di questo mondo e degli altri, José Saramago</a></span>
-</li>
-</ul>
-<span class="month-label">novembre 2014</span>
-<ul class="list-unstyled post-list">
-<li class="post-label">
-24 - <a href="http://diquestolibroedeglialtri.review/2014/11/bryson-breve-storia-di-quasi-tutto">Breve storia di (quasi) tutto, Bill Bryson</a></span>
-</li>
-<li class="post-label">
-17 - <a href="http://diquestolibroedeglialtri.review/2014/11/remarque-niente-di-nuovo-sul-fronte-occidentale">Niente di nuovo sul fronte occidentale, Erich Maria Remarque</a></span>
-</li>
-<li class="post-label">
-10 - <a href="http://diquestolibroedeglialtri.review/2014/11/buzzati-la-boutique-del-mistero">La boutique del mistero, Dino Buzzati</a></span>
-</li>
-<li class="post-label">
-09 - <a href="http://diquestolibroedeglialtri.review/2014/11/si-parte">Si parte!</a></span>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="widgets col-xs-12 col-sm-4 col-md-3">
-<div class="row">
-<div class="col-sm-12 hidden-xs">
-<div class="panel">
-<div class="input-group">
-<input type="text" class="search-input-fake form-control" placeholder="cerca nel sito&hellip;">
-<span class="input-group-btn">
-<button class="btn btn-primary search-button" type="button">
-<i class="fa fa-search" aria-hidden="true"></i>
-</button>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2018/03/kafka-il-processo">
+<span>
+<span class="has-text-weight-bold">Il processo</span>,
+Franz Kafka
+</span></a>
 </span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">marzo 2018</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="19 febbraio 2018">19</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2018/02/rochon-the-dictator-s-practical-internet-guide-to-power-retention">
+<span>
+<span class="has-text-weight-bold">The Dictator’s Practical Internet Guide to Power Retention</span>,
+Laurier Rochon
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="13 febbraio 2018">13</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2018/02/kristof-trilogia-della-citta-di-k">
+<span>
+<span class="has-text-weight-bold">Trilogia della città di K.</span>,
+Ágota Kristóf
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">febbraio 2018</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="20 gennaio 2018">20</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2018/01/saramago-la-zattera-di-pietra">
+<span>
+<span class="has-text-weight-bold">La zattera di pietra</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">gennaio 2018</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="31 dicembre 2017">31</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/12/il-mio-2017-tra-i-libri">
+<span>
+Il mio 2017 tra i libri
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/bilancio-annuale/">bilancio annuale</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="31 dicembre 2017">31</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/12/eggers-il-cerchio">
+<span>
+<span class="has-text-weight-bold">Il cerchio</span>,
+Dave Eggers
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 8 dicembre 2017">8</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/12/jackson-l-incubo-di-hill-house">
+<span>
+<span class="has-text-weight-bold">L’incubo di Hill House</span>,
+Shirley Jackson
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">dicembre 2017</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="10 ottobre 2017">10</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/10/chomsky-herman-la-fabbrica-del-consenso">
+<span>
+<span class="has-text-weight-bold">La fabbrica del consenso</span>,
+noam chomsky, edward s. herman
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">ottobre 2017</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="16 agosto 2017">16</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/08/collins-senza-nome">
+<span>
+<span class="has-text-weight-bold">Senza nome</span>,
+Wilkie Collins
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">agosto 2017</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="23 luglio 2017">23</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/07/melville-moby-dick">
+<span>
+<span class="has-text-weight-bold">Moby Dick</span>,
+Herman Melville
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="12 luglio 2017">12</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/07/si-riparte">
+<span>
+Si (ri)parte!
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">luglio 2017</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="16 maggio 2017">16</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/05/locanda-delle-fate-live-at-club-il-giardino-vr">
+<span>
+LOCANDA DELLE FATE live @ Club “Il Giardino” (VR)
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="11 maggio 2017">11</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/05/novita-in-arrivo">
+<span>
+Novità in arrivo 🙂
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">maggio 2017</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 2 aprile 2017">2</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/04/saramago-lucernario">
+<span>
+<span class="has-text-weight-bold">Lucernario</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">aprile 2017</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 5 marzo 2017">5</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/03/benni-cari-mostri">
+<span>
+<span class="has-text-weight-bold">Cari mostri</span>,
+Stefano Benni
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">marzo 2017</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="26 gennaio 2017">26</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/01/aavv-le-mille-e-una-notte">
+<span>
+<span class="has-text-weight-bold">Le mille e una notte</span>,
+AA.VV.
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 5 gennaio 2017">5</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2017/01/saramago-alabarde-alabarde">
+<span>
+<span class="has-text-weight-bold">Alabarde alabarde</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">gennaio 2017</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="31 dicembre 2016">31</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/12/il-mio-2016-tra-i-libri">
+<span>
+Il mio 2016 tra i libri
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/bilancio-annuale/">bilancio annuale</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="29 dicembre 2016">29</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/12/libri-sotto-l-albero">
+<span>
+Libri sotto l’albero (edizione 2016)
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="26 dicembre 2016">26</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/12/joyce-ulisse">
+<span>
+<span class="has-text-weight-bold">Ulisse</span>,
+James Joyce
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">dicembre 2016</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 9 novembre 2016">9</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/11/lem-solaris">
+<span>
+<span class="has-text-weight-bold">Solaris</span>,
+Stanisław Lem
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">novembre 2016</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="24 settembre 2016">24</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/09/sartre-la-nausea">
+<span>
+<span class="has-text-weight-bold">La nausea</span>,
+Jean-Paul Sartre
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">settembre 2016</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="29 giugno 2016">29</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/06/arendt-la-banalita-del-male">
+<span>
+<span class="has-text-weight-bold">La banalità del male: Eichmann a Gerusalemme</span>,
+Hannah Arendt
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="19 giugno 2016">19</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/06/di-sepio-simple-e-madama-3-tandem">
+<span>
+<span class="has-text-weight-bold">Tandem - Simple&amp;Madama 3</span>,
+Lorenza Di Sepio
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="13 giugno 2016">13</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/06/saramago-l-uomo-duplicato">
+<span>
+<span class="has-text-weight-bold">L’uomo duplicato</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 7 giugno 2016">7</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/06/gilman-the-yellow-wall-paper">
+<span>
+<span class="has-text-weight-bold">The Yellow Wall-Paper</span>,
+Charlotte Perkins Gilman
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">giugno 2016</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="29 maggio 2016">29</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/05/reza-felici-i-felici">
+<span>
+<span class="has-text-weight-bold">Felici i felici</span>,
+Yasmina Reza
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="17 maggio 2016">17</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/05/shelley-frankenstein">
+<span>
+<span class="has-text-weight-bold">Frankenstein</span>,
+Mary Wollstonecraft Shelley
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 5 maggio 2016">5</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/05/capuano-111-errori-di-traduzione-che-hanno-cambiato-il-mondo">
+<span>
+<span class="has-text-weight-bold">111 errori di traduzione che hanno cambiato il mondo</span>,
+Romolo Giovanni Capuano
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">maggio 2016</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="25 aprile 2016">25</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/04/nemirovsky-il-ballo">
+<span>
+<span class="has-text-weight-bold">Il ballo</span>,
+Irène Némirovsky
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="17 aprile 2016">17</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/04/pollan-il-dilemma-dell-onnivoro">
+<span>
+<span class="has-text-weight-bold">Il dilemma dell’onnivoro</span>,
+Michael Pollan
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 aprile 2016">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/04/collins-la-donna-in-bianco">
+<span>
+<span class="has-text-weight-bold">La donna in bianco</span>,
+Wilkie Collins
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">aprile 2016</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="30 marzo 2016">30</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/03/fitzgerald-tenera-e-la-notte">
+<span>
+<span class="has-text-weight-bold">Tenera è la notte</span>,
+Francis Scott Fitzgerald
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="15 marzo 2016">15</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/03/james-giro-di-vite">
+<span>
+<span class="has-text-weight-bold">Giro di vite</span>,
+Henry James
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">marzo 2016</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="20 febbraio 2016">20</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/02/d-amicis-quando-eravamo-prede">
+<span>
+<span class="has-text-weight-bold">Quando eravamo prede</span>,
+Carlo D'Amicis
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 febbraio 2016">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/02/borges-finzioni">
+<span>
+<span class="has-text-weight-bold">Finzioni</span>,
+Jorge Luis Borges
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">febbraio 2016</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="12 gennaio 2016">12</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/01/sacks-allucinazioni">
+<span>
+<span class="has-text-weight-bold">Allucinazioni</span>,
+Oliver Sacks
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 7 gennaio 2016">7</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/01/austen-ragione-e-sentimento">
+<span>
+<span class="has-text-weight-bold">Ragione e sentimento</span>,
+Jane Austen
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 gennaio 2016">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/01/irving-la-leggenda-di-sleepy-hollow">
+<span>
+<span class="has-text-weight-bold">La leggenda di Sleepy Hollow</span>,
+Washington Irving
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 2 gennaio 2016">2</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2016/01/capra-il-tao-della-fisica">
+<span>
+<span class="has-text-weight-bold">Il Tao della fisica</span>,
+Fritjof Capra
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">gennaio 2016</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="31 dicembre 2015">31</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/12/il-mio-2015-tra-i-libri">
+<span>
+Il mio 2015 tra i libri
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/bilancio-annuale/">bilancio annuale</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="26 dicembre 2015">26</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/12/abbott-flatlandia">
+<span>
+<span class="has-text-weight-bold">Flatlandia: racconto fantastico a più dimensioni</span>,
+Edwin A. Abbott
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="20 dicembre 2015">20</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/12/concorso-capricci-d-inchiostro">
+<span>
+Concorso Capricci d’inchiostro - È arrivato Babbo Natale (in anticipo)!
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/concorsi/">concorsi</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="12 dicembre 2015">12</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/12/wells-nel-paese-dei-ciechi">
+<span>
+<span class="has-text-weight-bold">Nel paese dei ciechi</span>,
+H.G. Wells
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 7 dicembre 2015">7</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/12/wallace-copia-e-incolla">
+<span>
+<span class="has-text-weight-bold">Copia-e-incolla</span>,
+Danny Wallace
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">dicembre 2015</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="24 novembre 2015">24</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/11/williams-i-capelli-di-harold-roux">
+<span>
+<span class="has-text-weight-bold">I capelli di Harold Roux</span>,
+Thomas Williams
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="15 novembre 2015">15</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/11/diamond-collasso">
+<span>
+<span class="has-text-weight-bold">Collasso: come le società scelgono di morire o vivere</span>,
+Jared Diamond
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 9 novembre 2015">9</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/11/primo-compleanno">
+<span>
+Buon compleanno, di questo libro e degli altri!
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 novembre 2015">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/11/jackson-la-lotteria">
+<span>
+<span class="has-text-weight-bold">La lotteria</span>,
+Shirley Jackson
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 2 novembre 2015">2</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/11/de-laclos-le-relazioni-pericolose">
+<span>
+<span class="has-text-weight-bold">Le relazioni pericolose</span>,
+Pierre-Ambroise-François Choderlos de Laclos
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">novembre 2015</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="22 ottobre 2015">22</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/10/tabucchi-sostiene-pereira">
+<span>
+<span class="has-text-weight-bold">Sostiene Pereira</span>,
+Antonio Tabucchi
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="14 ottobre 2015">14</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/10/concorso-fazi-i-capelli-di-harold-roux">
+<span>
+Concorso Fazi Editore - I capelli di Harold Roux
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/concorsi/">concorsi</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="11 ottobre 2015">11</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/10/viscusi-dimenticami-trovami-sognami">
+<span>
+<span class="has-text-weight-bold">Dimenticami Trovami Sognami</span>,
+Andrea Viscusi
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 ottobre 2015">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/10/saramago-caino">
+<span>
+<span class="has-text-weight-bold">Caino</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 ottobre 2015">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/10/concorso-kleiner-flug-morte-rossa">
+<span>
+Concorso Kleiner Flug - La maschera della Morte Rossa
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/concorsi/">concorsi</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">ottobre 2015</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="13 settembre 2015">13</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/09/magee-quando-tutto-sara-finito">
+<span>
+<span class="has-text-weight-bold">Quando tutto sarà finito</span>,
+Audrey Magee
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">settembre 2015</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="19 agosto 2015">19</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/08/shaxson-le-isole-del-tesoro">
+<span>
+<span class="has-text-weight-bold">Le isole del tesoro: viaggio nei paradisi fiscali dove è nascosto il tesoro della globalizzazione</span>,
+Nicholas Shaxson
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 4 agosto 2015">4</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/08/aavv-le-leggende-di-ferhaven-1">
+<span>
+<span class="has-text-weight-bold">Le Leggende di Ferhaven (volume primo)</span>,
+AA.VV.
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">agosto 2015</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 6 luglio 2015">6</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/07/hesse-il-lupo-della-steppa">
+<span>
+<span class="has-text-weight-bold">Il lupo della steppa</span>,
+Hermann Hesse
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">luglio 2015</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="30 maggio 2015">30</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/05/schnitzler-doppio-sogno">
+<span>
+<span class="has-text-weight-bold">Doppio sogno</span>,
+Arthur Schnitzler
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="18 maggio 2015">18</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/05/zamjatin-noi">
+<span>
+<span class="has-text-weight-bold">Noi</span>,
+Evgenij Zamjatin
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 8 maggio 2015">8</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/05/hugo-notre-dame-de-paris">
+<span>
+<span class="has-text-weight-bold">Notre-Dame de Paris</span>,
+Victor Hugo
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 2 maggio 2015">2</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/05/saramago-saggio-sulla-lucidita">
+<span>
+<span class="has-text-weight-bold">Saggio sulla lucidità</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">maggio 2015</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="19 aprile 2015">19</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/04/dennis-zia-mame">
+<span>
+<span class="has-text-weight-bold">Zia Mame</span>,
+Patrick Dennis
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="12 aprile 2015">12</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/04/yoshimoto-kitchen">
+<span>
+<span class="has-text-weight-bold">Kitchen</span>,
+Banana Yoshimoto
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 5 aprile 2015">5</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/04/allende-la-casa-degli-spiriti">
+<span>
+<span class="has-text-weight-bold">La casa degli spiriti</span>,
+Isabel Allende
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">aprile 2015</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="29 marzo 2015">29</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/salinger-il-giovane-holden">
+<span>
+<span class="has-text-weight-bold">Il giovane Holden</span>,
+J.D. Salinger
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="24 marzo 2015">24</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/giveaway-sesto-compleanno-stamberga">
+<span>
+Concorso La Stamberga dei Lettori - Sesto compleanno
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/concorsi/">concorsi</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="22 marzo 2015">22</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/mann-i-buddenbrook">
+<span>
+<span class="has-text-weight-bold">I Buddenbrook</span>,
+Thomas Mann
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="15 marzo 2015">15</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/nemirovsky-suite-francese">
+<span>
+<span class="has-text-weight-bold">Suite francese</span>,
+Irène Némirovsky
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 8 marzo 2015">8</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/nabokov-invito-a-una-decapitazione">
+<span>
+<span class="has-text-weight-bold">Invito a una decapitazione</span>,
+Vladimir Nabokov
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 1 marzo 2015">1</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/03/diamond-armi-acciaio-e-malattie">
+<span>
+<span class="has-text-weight-bold">Armi, acciaio e malattie: breve storia del mondo negli ultimi tredicimila anni</span>,
+Jared Diamond
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">marzo 2015</span>
+</header>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="22 febbraio 2015">22</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/02/golding-il-signore-delle-mosche">
+<span>
+<span class="has-text-weight-bold">Il signore delle mosche</span>,
+William Golding
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="11 febbraio 2015">11</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/02/nemirovsky-david-golder">
+<span>
+<span class="has-text-weight-bold">David Golder</span>,
+Irène Némirovsky
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 8 febbraio 2015">8</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/02/matheson-io-sono-leggenda">
+<span>
+<span class="has-text-weight-bold">Io sono leggenda</span>,
+Richard Matheson
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 5 febbraio 2015">5</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/02/saramago-le-intermittenze-della-morte">
+<span>
+<span class="has-text-weight-bold">Le intermittenze della morte</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-danger">
+<div class="timeline-marker is-danger">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 2 febbraio 2015">2</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/02/zamjatin-a-casa-del-diavolo">
+<span>
+<span class="has-text-weight-bold">A casa del diavolo</span>,
+Evgenij Zamjatin
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-danger has-text-weight-bold heading">febbraio 2015</span>
+</header>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="31 gennaio 2015">31</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/01/austen-emma">
+<span>
+<span class="has-text-weight-bold">Emma</span>,
+Jane Austen
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="25 gennaio 2015">25</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/01/simmons-i-canti-di-hyperion">
+<span>
+<span class="has-text-weight-bold">I Canti di Hyperion</span>,
+Dan Simmons
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="18 gennaio 2015">18</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/01/women-challenge">
+<span>
+Women Challenge
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<div class="timeline-item is-primary">
+<div class="timeline-marker is-primary">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="13 gennaio 2015">13</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2015/01/levi-cristo-si-e-fermato-a-eboli">
+<span>
+<span class="has-text-weight-bold">Cristo si è fermato a Eboli</span>,
+Carlo Levi
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-primary has-text-weight-bold heading">gennaio 2015</span>
+</header>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="30 dicembre 2014">30</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/12/il-mio-2014-tra-i-libri">
+<span>
+Il mio 2014 tra i libri
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/bilancio-annuale/">bilancio annuale</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="21 dicembre 2014">21</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/12/saramago-cecita">
+<span>
+<span class="has-text-weight-bold">Cecità</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-warning">
+<div class="timeline-marker is-warning">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="14 dicembre 2014">14</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/12/saramago-di-questo-mondo-e-degli-altri">
+<span>
+<span class="has-text-weight-bold">Di questo mondo e degli altri</span>,
+José Saramago
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-warning has-text-weight-bold heading">dicembre 2014</span>
+</header>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="24 novembre 2014">24</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/11/bryson-breve-storia-di-quasi-tutto">
+<span>
+<span class="has-text-weight-bold">Breve storia di (quasi) tutto</span>,
+Bill Bryson
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="17 novembre 2014">17</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/11/remarque-niente-di-nuovo-sul-fronte-occidentale">
+<span>
+<span class="has-text-weight-bold">Niente di nuovo sul fronte occidentale</span>,
+Erich Maria Remarque
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title="10 novembre 2014">10</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/11/buzzati-la-boutique-del-mistero">
+<span>
+<span class="has-text-weight-bold">La boutique del mistero</span>,
+Dino Buzzati
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a></span>
+</div>
+</div>
+<div class="timeline-item is-success">
+<div class="timeline-marker is-success">
+<span
+class="heading has-text-weight-bold has-text-centered"
+title=" 9 novembre 2014">9</span>
+</div>
+<div class="timeline-content">
+<span class="heading">
+<a class="is-size-6" href="http://diquestolibroedeglialtri.review/2014/11/si-parte">
+<span>
+Si parte!
+</span></a>
+</span>
+<span class="heading">In <a href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a></span>
+</div>
+</div>
+<header class="timeline-header">
+<span class="tag is-medium is-success has-text-weight-bold heading">novembre 2014</span>
+</header>
 </div>
 </div>
 </div>
-<div class="authors-widget col-xs-12">
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h3 class="panel-title">
-Chi siamo<span class="push-right"><i class="fa fa-fw fa-users" aria-hidden="true"></i></span>
-</h3>
+</section>
+</section>
 </div>
-<div class="panel-body">
-<div class="row">
-<div class="author-card">
-<div class="col-xs-6 col-sm-12">
-<p class="text-center">
-<img class="author-image" src="http://diquestolibroedeglialtri.review/images/ale.jpg" title="Foto Alessandro" alt="Foto Alessandro" />
+<div class="column is-4 is-sidebar">
+<div class="notification is-light">
+<div class="content">
+<p class="heading is-size-4">Chi siamo</p>
+<div class="author-short-description">
+<p class="title is-spaced is-5 heading has-text-weight-bold">Alessandro</p>
+<p class="subtitle is-6 heading">
+Programmatore back-end, la lettura e la musica sono le mie passioni.<br /><br />Scrittori preferiti <strong>Saramago</strong>, <strong>Poe</strong> e <strong>P.K. Dick</strong>; ossessionato da Pink Floyd, Opeth, iamthemorning e Schammasch (e troppi altri!)
 </p>
-<p class="author-name"><a href="http://diquestolibroedeglialtri.review/chi-siamo/alessandro">Alessandro</a></p>
-<p class="author-description text-center text-muted">Programmatore back-end, la lettura e la musica sono le mie passioni. Scrittori preferiti Saramago e Poe, in fissa con Pink Floyd, Opeth, iamthemorning e Schammasch.</p>
 <p>
-<ul class="list-inline text-center">
-<li>
-<a class="social-link" href="https://www.goodreads.com/user/show/21784726-alessandro" target="_blank">
-<i title="Goodreads" class="fa fa-fw fa-book"></i>
-</a>
-</li>
-<li>
-<a class="social-link" href="https://www.last.fm/user/Heijenoort" target="_blank">
-<i title="Last.fm" class="fa fa-fw fa-lastfm"></i>
-</a>
-</li>
-<li>
-<a class="social-link" href="https://www.facebook.com/diquestolibroedeglialtri/" target="_blank">
-<i title="Facebook" class="fa fa-fw fa-facebook"></i>
-</a>
-</li>
-</ul>
+<a
+class="button heading is-text is-full-width is-small"
+href="http://diquestolibroedeglialtri.review/chi-siamo/alessandro">Visualizza profilo completo</a>
 </p>
 </div>
-</div>
-<div class="author-card">
-<div class="col-xs-6 col-sm-12">
-<p class="text-center">
-<img class="author-image" src="http://diquestolibroedeglialtri.review/images/eli.jpg" title="Foto Elisa" alt="Foto Elisa" />
+<div class="author-short-description">
+<p class="title is-spaced is-5 heading has-text-weight-bold">Elisa</p>
+<p class="subtitle is-6 heading">
+Fotografa per passione, <strong>adoro passeggiare in mezza alla natura</strong> con la mia reflex <strong>e scattare un sacco di foto</strong> a luoghi e paesaggi. Oltre che leggere ovviamente!
 </p>
-<p class="author-name"><a href="http://diquestolibroedeglialtri.review/chi-siamo/elisa">Elisa</a></p>
-<p class="author-description text-center text-muted">Fotografa per passione, adoro passeggiare in mezza alla natura con la mia reflex e scattare un sacco di foto a luoghi e paesaggi. Oltre che leggere ovviamente!</p>
 <p>
-<ul class="list-inline text-center">
-<li>
-<a class="social-link" href="https://www.goodreads.com/user/show/35167135-elisa" target="_blank">
-<i title="Goodreads" class="fa fa-fw fa-book"></i>
-</a>
-</li>
-<li>
-<a class="social-link" href="https://500px.com/elisapossente" target="_blank">
-<i title="500px" class="fa fa-fw fa-500px"></i>
-</a>
-</li>
-<li>
-<a class="social-link" href="https://www.facebook.com/diquestolibroedeglialtri/" target="_blank">
-<i title="Facebook" class="fa fa-fw fa-facebook"></i>
-</a>
-</li>
-</ul>
+<a
+class="button heading is-text is-full-width is-small"
+href="http://diquestolibroedeglialtri.review/chi-siamo/elisa">Visualizza profilo completo</a>
 </p>
 </div>
 </div>
 </div>
+<div class="notification is-light">
+<div class="content">
+<p class="heading is-size-4">Categorie</p>
+<div class="field is-grouped is-grouped-multiline">
+<div class="control">
+<div class="tags has-addons">
+<a
+class="heading tag button is-medium is-dark is-outlined tooltip is-tooltip-multiline"
+data-tooltip="Visualizza tutti i post nella categoria &quot;recensioni&quot;"
+href="http://diquestolibroedeglialtrireview/c/recensioni/">recensioni</a>
+<span class="tag is-medium is-dark">73</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a
+class="heading tag button is-medium is-dark is-outlined tooltip is-tooltip-multiline"
+data-tooltip="Visualizza tutti i post nella categoria &quot;senza categoria&quot;"
+href="http://diquestolibroedeglialtrireview/c/senza-categoria/">senza categoria</a>
+<span class="tag is-medium is-dark">8</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a
+class="heading tag button is-medium is-dark is-outlined tooltip is-tooltip-multiline"
+data-tooltip="Visualizza tutti i post nella categoria &quot;concorsi&quot;"
+href="http://diquestolibroedeglialtrireview/c/concorsi/">concorsi</a>
+<span class="tag is-medium is-dark">4</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a
+class="heading tag button is-medium is-dark is-outlined tooltip is-tooltip-multiline"
+data-tooltip="Visualizza tutti i post nella categoria &quot;bilancio annuale&quot;"
+href="http://diquestolibroedeglialtrireview/c/bilancio-annuale/">bilancio annuale</a>
+<span class="tag is-medium is-dark">4</span>
 </div>
 </div>
 </div>
-<div class="reading col-xs-12">
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h3 class="panel-title">In lettura<span class="push-right"><i class="fa fa-fw fa-bookmark" aria-hidden="true"></i></span></h3>
 </div>
-<div class="panel-body">
-<p class="gr_name text-muted">Alessandro</p>
+</div>
+<div class="notification is-light">
+<div class="content">
+<p class="heading is-size-4">Tag più usati</p>
+<div class="field is-grouped is-grouped-multiline">
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-danger is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/recensione/"
+data-tooltip="Visualizza tutti i post con tag &quot;recensione&quot;">recensione</a>
+<span class="tag is-danger">73</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-danger is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/romanzo/"
+data-tooltip="Visualizza tutti i post con tag &quot;romanzo&quot;">romanzo</a>
+<span class="tag is-danger">50</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/feltrinelli/"
+data-tooltip="Visualizza tutti i post con tag &quot;feltrinelli&quot;">feltrinelli</a>
+<span class="tag is-primary">17</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/adelphi/"
+data-tooltip="Visualizza tutti i post con tag &quot;adelphi&quot;">adelphi</a>
+<span class="tag is-primary">15</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/letteratura-nordamericana/"
+data-tooltip="Visualizza tutti i post con tag &quot;letteratura nordamericana&quot;">letteratura nordame…</a>
+<span class="tag is-primary">12</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/saggistica/"
+data-tooltip="Visualizza tutti i post con tag &quot;saggistica&quot;">saggistica</a>
+<span class="tag is-primary">11</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/letteratura-portoghese/"
+data-tooltip="Visualizza tutti i post con tag &quot;letteratura portoghese&quot;">letteratura portogh…</a>
+<span class="tag is-primary">9</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-primary is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/jose-saramago/"
+data-tooltip="Visualizza tutti i post con tag &quot;josé saramago&quot;">josé saramago</a>
+<span class="tag is-primary">9</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/letteratura-inglese/"
+data-tooltip="Visualizza tutti i post con tag &quot;letteratura inglese&quot;">letteratura inglese</a>
+<span class="tag is-info">8</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/letteratura-francese/"
+data-tooltip="Visualizza tutti i post con tag &quot;letteratura francese&quot;">letteratura francese</a>
+<span class="tag is-info">7</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/raccolta-di-racconti/"
+data-tooltip="Visualizza tutti i post con tag &quot;raccolta di racconti&quot;">raccolta di racconti</a>
+<span class="tag is-info">6</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/newton-compton/"
+data-tooltip="Visualizza tutti i post con tag &quot;newton compton&quot;">newton compton</a>
+<span class="tag is-info">6</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/mondadori/"
+data-tooltip="Visualizza tutti i post con tag &quot;mondadori&quot;">mondadori</a>
+<span class="tag is-info">6</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/einaudi/"
+data-tooltip="Visualizza tutti i post con tag &quot;einaudi&quot;">einaudi</a>
+<span class="tag is-info">6</span>
+</div>
+</div>
+<div class="control">
+<div class="tags has-addons">
+<a class="heading tag button is-info is-outlined tooltip is-tooltip-multiline"
+href="http://diquestolibroedeglialtrireview/t/letteratura-tedesca/"
+data-tooltip="Visualizza tutti i post con tag &quot;letteratura tedesca&quot;">letteratura tedesca</a>
+<span class="tag is-info">5</span>
+</div>
+</div>
+</div>
+<a class="button is-link heading is-full-width is-medium" href="http://diquestolibroedeglialtri.review/tag-cloud/">Vedi tutti i tag</a>
+</div>
+</div>
+<div class="notification is-light">
+<div class="content">
+<p class="heading is-size-4">In lettura</p>
+<section class="section has-text-centered">
+<p class="heading is-size-5">Alessandro</p>
 <div id="gr_custom_widget_alessandro"></div>
 <script src="https://www.goodreads.com/review/custom_widget/21784726.alessandro?cover_position=middle&cover_size=medium&num_books=5&order=d&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_updated&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=alessandro&widget_text_color=000000&widget_title_size=medium&widget_width=full" type="text/javascript" charset="utf-8"></script>
-<p class="gr_name text-muted">Elisa</p>
+</section>
+<section class="section has-text-centered">
+<p class="heading is-size-5">Elisa</p>
 <div id="gr_custom_widget_elisa"></div>
 <script src="https://www.goodreads.com/review/custom_widget/35167135.elisa?cover_position=middle&cover_size=medium&num_books=5&order=d&shelf=currently-reading&show_author=1&show_cover=1&show_rating=0&show_review=0&show_tags=0&show_title=1&sort=date_updated&widget_bg_color=FFFFFF&widget_bg_transparent=&widget_border_width=1&widget_id=elisa&widget_text_color=000000&widget_title_size=medium&widget_width=full" type="text/javascript" charset="utf-8"></script>
-</div>
-<div class="panel-footer text-center small">powered by <a href="http://goodreads.com" target="_blank">goodreads</a></div>
-</div>
-</div>
-<div class="categories col-xs-12">
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h3 class="panel-title">Categorie<span class="push-right"><i class="fa fa-fw fa-tag" aria-hidden="true"></i></span></h3>
-</div>
-<div class="panel-body">
-<ul class="list-unstyled">
-<li class="indented-wrap-item">
-<a href="http://diquestolibroedeglialtri.review/c/recensioni/">recensioni&nbsp;<span class="badge">73</span></a>
-</li>
-<li class="indented-wrap-item">
-<a href="http://diquestolibroedeglialtri.review/c/senza-categoria/">senza categoria&nbsp;<span class="badge">8</span></a>
-</li>
-<li class="indented-wrap-item">
-<a href="http://diquestolibroedeglialtri.review/c/musicalmente-tratto/">musicalmente tratto&nbsp;<span class="badge">7</span></a>
-</li>
-<li class="indented-wrap-item">
-<a href="http://diquestolibroedeglialtri.review/c/concorsi/">concorsi&nbsp;<span class="badge">4</span></a>
-</li>
-<li class="indented-wrap-item">
-<a href="http://diquestolibroedeglialtri.review/c/bilancio-annuale/">bilancio annuale&nbsp;<span class="badge">4</span></a>
-</li>
-</ul>
+</section>
 </div>
 </div>
-</div>
-<div class="top-tags col-xs-12">
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h3 class="panel-title">Tag più usati<span class="push-right"><i class="fa fa-fw fa-tags" aria-hidden="true"></i></span></h3>
-</div>
-<div class="panel-body">
-<div class="text-center">
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/recensione" rel="73" style="font-size: 34px">recensione</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/romanzo" rel="50" style="font-size: 28px">romanzo</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/feltrinelli" rel="17" style="font-size: 20px">feltrinelli</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/adelphi" rel="15" style="font-size: 19px">adelphi</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/letteratura-nordamericana" rel="12" style="font-size: 19px">letteratura nordamericana</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/saggistica" rel="11" style="font-size: 18px">saggistica</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/jose-saramago" rel="10" style="font-size: 18px">josé saramago</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/letteratura-portoghese" rel="9" style="font-size: 18px">letteratura portoghese</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/letteratura-inglese" rel="8" style="font-size: 18px">letteratura inglese</a>
-<a class="tag-item" href="http://diquestolibroedeglialtri.review/t/musicalmente-tratto" rel="7" style="font-size: 17px">musicalmente tratto</a>
-</div>
-</div>
-<div class="panel-footer text-right">
-<a href="http://diquestolibroedeglialtri.review/tag-cloud/">vedi tutti i tag <i class="fa fa-fw fa-arrow-right" aria-hidden="true"></i></a>
-</div>
-</div>
-</div>
-<div class="support-us col-xs-12">
-<div class="panel panel-primary">
-<div class="panel-heading">
-<h3 class="panel-title">Supportaci<span class="push-right"><i class="fa fa-fw fa-life-ring" aria-hidden="true"></i></span></h3>
-</div>
-<div class="panel-body">
-<span>Ti senti generoso/a? <a href='https://ko-fi.com/A1361Y5J' target='_blank'>Offrici un caffè</a> oppure fai i tuoi acquisti su Amazon partendo da un <a href="http://amzn.to/2tsao9V" target="_blank">nostro link</a>!</span>
-</div>
-<div class="panel-footer text-right">
-<a href="http://diquestolibroedeglialtri.review/come-supportarci/">scopri di più<i class="fa fa-fw fa-arrow-right" aria-hidden="true"></i></a>
+<div class="tile is-child notification is-danger">
+<div class="content">
+<p class="heading is-size-4">Supportaci</p>
+<p class="heading is-size-6">Ti senti generoso/a?
+<br>
+<a class="has-text-weight-bold" href="https://ko-fi.com/A1361Y5J" target="_blank">Offrici un caffè</a> oppure fai i tuoi acquisti su Amazon partendo da un
+<a class="has-text-weight-bold" href="" target="_blank">nostro link affiliato</a>!</p>
+<p>
+<a class="button is-link heading is-full-width is-medium" href="http://diquestolibroedeglialtri.review/come-supportarci//">Scopri di più</a>
+</p>
 </div>
 </div>
 </div>
 </div>
 </div>
-</div>
-<div class="row">
-<div class="blog-disclaimer col-xs-12 col-sm-offset-0 col-sm-8 col-md-offset-1 col-md-7">
-<p class="text-muted">Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità, non può pertanto considerarsi un prodotto editoriale ai sensi della legge num.&nbsp;62 del 7.03.2001.</p>
-<p class="text-muted">I testi citati e le immagini pubblicate su questo blog sono copyright delle case editrici, degli autori e delle agenzie che ne detengono i diritti. La loro pubblicazione totale o parziale non intende violare alcun copyright e non avviene a scopo di lucro.</p>
-<p class="text-muted"><strong>di questo libro e degli altri</strong> è un blog e, come tale, i contenuti devono intendersi unicamente come opinioni personali.</p>
-</div>
-</div>
-</div>
-</main>
-<footer class="footer navbar-inverse">
+<section class="section">
 <div class="container">
-<div class="row">
-<div class="col-xs-12 col-md-offset-1 col-md-10">
-<span class="push-left"><i class="fa fa-fw fa-copyright" aria-hidden="true"></i> 2014-18 Alessandro Cocco</span>
-<span class="push-right">
-<a href="#" class="top-link"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a>
-</span>
+<div class="columns">
+<div class="column is-8">
+<div class="content">
+<p class="is-size-7">Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità, non può pertanto considerarsi un prodotto editoriale ai sensi della legge num.&nbsp;62 del 7.03.2001.</p>
+<p class="is-size-7">I testi citati e le immagini pubblicate su questo blog sono copyright delle case editrici, degli autori e delle agenzie che ne detengono i diritti. La loro pubblicazione totale o parziale non intende violare alcun copyright e non avviene a scopo di lucro. Tutti i contenuti devono intendersi unicamente come opinioni personali.</p>
+<p class="is-size-7">
+<a href="http://diquestolibroedeglialtri.review/informativa-cookie/">Informativa cookie</a>
+</p>
 </div>
 </div>
+</div>
+</div>
+</div>
+</section>
+<div class="container">
+<footer class="footer">
+<div class="content has-text-centered">
+<p>
+Coded with ❤️ using
+<a href="https://jekyllrb.com" target="_blank">Jekyll</a> and
+<a href="https://bulma.io" target="_blank">Bulma</a>. Hosted on
+<a href="https://github.com/alessandrococco/diquestolibroedeglialtri" target="_blank">GitHub</a>.
+<br>&copy; 2014-18 Alessandro Cocco
+</p>
 </div>
 </footer>
-<script src="http://diquestolibroedeglialtri.review/resources/js/jquery-3.2.1.min.js"></script>
-<script src="http://diquestolibroedeglialtri.review/resources/js/bootstrap.min.js"></script>
-<script src="http://diquestolibroedeglialtri.review/resources/js/custom.js"></script>
-<script src="http://diquestolibroedeglialtri.review/resources/js/jekyll-search.min.js"></script>
-<div class="search modal fade modal-primary" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="search-modal-label" style="display: none">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<div class="modal-body">
-<div class="input-group">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button" data-dismiss="modal">
-<i class="fa fa-fw fa-times" aria-hidden="true"></i>
-</button>
+</div>
+<div class="container cookie-bar">
+<div class="columns is-marginless">
+<div class="column is-paddingless is-12-mobile is-offset-0-tablet is-12-tablet is-offset-1-desktop is-10-desktop">
+<div class="notification is-white">
+<div class="content">
+<p class="has-text-centered is-uppercase is-size-7">
+Questo sito utilizza i cookie per offrire una migliore esperienza di navigazione, continuando la visita ne accetti l'utilizzo.
+</p>
+<p class="has-text-centered">
+<a class="button heading is-small is-inline-block is-success is-confirm-button">OK</a>
+<a class="button heading is-small is-inline-block is-outlined is-link is-read-more-button" href="http://diquestolibroedeglialtri.review/informativa-cookie/">Leggi informativa completa</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="modal-search" class="modal">
+<div
+class="modal-background"
+onclick="javascript:toggleModal('modal-search')"></div>
+<section class="modal-content">
+<div class="field">
+<div class="control has-icons-right">
+<input id="search-input"
+class="input is-rounded is-medium"
+type="text"
+placeholder="Cerca nel sito&hellip;">
+<span class="icon is-right">
+<i class="ion-search"></i>
 </span>
-<input type="text" id="search-input" class="form-control" placeholder="cerca nel sito&hellip;">
-<span class="input-group-btn">
-<button class="btn btn-primary" type="button">
-<i class="fa fa-fw fa-search" aria-hidden="true"></i>
-</button>
-</span>
-</div>
-<div id="results-container"></div>
 </div>
 </div>
+<div id="search-result" class="search-result"></div>
+</section>
+<button
+class="modal-close is-large"
+aria-label="close"
+onclick="javascript:toggleModal('modal-search')"></button>
 </div>
-</div>
-<div class="modal fade" id="image-modal" tabindex="-1" role="dialog" style="display: none;">
-<div class="modal-dialog" role="document">
-<div class="modal-content">
-<div class="modal-body text-center">
-<img id="modal-image" class="img-responsive" src="">
-<button type="button" class="btn btn-default" data-dismiss="modal">Chiudi</button>
-</div>
-</div>
-</div>
-</div>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/jekyll-search.min.js"></script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/main.js"></script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/cookies.min.js"></script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/cookie-policy.js"></script>
 <script>
-$(document).ready(function() {
-$('.search-button').on('click', function(e) {
-e.preventDefault();
-$('#search-modal').modal('show');
+(function(){
+var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
+})("woopra");
+woopra.config({
+domain: 'diquestolibroedeglialtri.review'
 });
-$('.search-input-fake').on('focus', function(e) {
-e.preventDefault();
-$('#search-modal').modal('show');
-});
-$('#search-modal').on('shown.bs.modal', function () {
-$('#search-input').focus();
-});
-});
+woopra.track();
 </script>
 <script>
 SimpleJekyllSearch({
 searchInput: document.getElementById('search-input'),
-resultsContainer: document.getElementById('results-container'),
+resultsContainer: document.getElementById('search-result'),
 json: '/search.json',
-searchResultTemplate: '<a class="search-result" href="http://diquestolibroedeglialtri.review{url}">{title}</a>',
-noResultsText: '<span class="search-result">Nessun risultato trovato, prova a visitare l&apos;<a href="http://diquestolibroedeglialtri.review/archivio">archivio</a>!</span>'
-});
-</script>
-<script>
-$('#image-modal').on('show.bs.modal', function(event) {
-var button = $(event.relatedTarget);
-var imageUrl = button.data('image-url');
-var imageText = button.data('image-text');
-var modal = $(this)
-modal.find('#modal-image').attr('src', imageUrl);
-modal.find('#modal-image').attr('alt', imageText);
-modal.find('#modal-image').attr('title', imageText);
+searchResultTemplate: '<span class="is-block"><span class="search-result-item-subtitle subtitle is-uppercase is-size-7">{category}</span> <a class="search-result-item title is-uppercase is-size-6 is-size-7-mobile" href="http://diquestolibroedeglialtri.review{url}">{title}</a></span>',
+noResultsText: '<span class="search-result-no-items is-uppercase is-block is-size-6 is-size-7-mobile has-text-centered">Nessun risultato trovato, prova a visitare l&apos;<a href="http://diquestolibroedeglialtri.review/archivio/">archivio</a>!</span>',
+limit: 10
 });
 </script>
 </body>
