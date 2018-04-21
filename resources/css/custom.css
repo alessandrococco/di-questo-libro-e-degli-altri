@@ -40,6 +40,7 @@ figure img {
 .content blockquote {
   font-style: italic;
   border: 0;
+  font-size: 1.25rem;
 }
 
 .navigation-bar,
@@ -290,6 +291,10 @@ print {
 
 @media screen and (max-width: 769px),
 print {
+  .message-body,
+  .content blockquote {
+    padding: 1.25rem 1rem;
+  }
   .post .tag:not(body).is-medium {
     font-size: 0.75rem;
   }
