@@ -77,6 +77,13 @@
 "date": "2017-08-16 12:00:00 +0200"
 },
 {
+"title": "The Call of the Wretched Sea, Ahab / Moby Dick, Herman Melville",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, moby dick, herman melville, ahab",
+"url": "/2017/08/ahab-the-call-of-the-wretched-sea",
+"date": "2017-08-11 00:00:00 +0200"
+},
+{
 "title": "Moby Dick, Herman Melville",
 "category": "recensioni",
 "tags": "recensione, moby dick, herman melville, letteratura nordamericana, romanzo, adelphi",
@@ -201,6 +208,13 @@
 "tags": "recensione, yasmina reza, felici i felici, letteratura francese, romanzo, adelphi",
 "url": "/2016/05/reza-felici-i-felici",
 "date": "2016-05-29 10:45:00 +0200"
+},
+{
+"title": "For Whom the Bell Tolls, Metallica / Per chi suona la campana, Ernest Hemingway",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, per chi suona la campana, ernest hemingway, metallica",
+"url": "/2016/05/metallica-for-whom-the-bell-tolls",
+"date": "2016-05-22 13:50:00 +0200"
 },
 {
 "title": "Frankenstein, Mary Wollstonecraft Shelley",
@@ -343,6 +357,13 @@
 "date": "2015-11-15 23:50:00 +0100"
 },
 {
+"title": "The Phantom of the Opera, Nightwish / Il fantasma dell&#39;Opera, Gaston Leroux",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, il fantasma dell'opera, gaston leroux, nightwish",
+"url": "/2015/11/nightwish-the-phantom-of-the-opera",
+"date": "2015-11-10 22:15:00 +0100"
+},
+{
 "title": "Buon compleanno, di questo libro e degli altri!",
 "category": "senza categoria",
 "tags": "",
@@ -427,6 +448,13 @@
 "date": "2015-07-06 11:30:00 +0200"
 },
 {
+"title": "Poe, Opera Magna / Edgar Allan Poe",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, edgar allan poe, opera magna",
+"url": "/2015/06/opera-magna-poe",
+"date": "2015-06-13 23:00:00 +0200"
+},
+{
 "title": "Doppio sogno, Arthur Schnitzler",
 "category": "recensioni",
 "tags": "recensione, arthur schnitzler, doppio sogno, letteratura tedesca, romanzo, adelphi",
@@ -455,6 +483,13 @@
 "date": "2015-05-02 15:30:00 +0200"
 },
 {
+"title": "A Christmas Carol, Riul Doamnei / Canto di Natale, Charles Dickens",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, canto di natale, charles dickens, riul doamnei",
+"url": "/2015/04/riul-doamnei-a-christmas-carol",
+"date": "2015-04-25 14:30:00 +0200"
+},
+{
 "title": "Zia Mame, Patrick Dennis",
 "category": "recensioni",
 "tags": "recensione, patrick dennis, zia mame, letteratura nordamericana, romanzo, adelphi",
@@ -469,11 +504,32 @@
 "date": "2015-04-12 14:00:00 +0200"
 },
 {
+"title": "Brave New World, Iron Maiden / Il mondo nuovo, Aldoux Huxley",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, il mondo nuovo, aldous huxley, iron maiden",
+"url": "/2015/04/iron-maiden-brave-new-world",
+"date": "2015-04-09 23:30:00 +0200"
+},
+{
 "title": "La casa degli spiriti, Isabel Allende",
 "category": "recensioni",
 "tags": "recensione, isabel allende, la casa degli spiriti, letteratura sudamericana, romanzo, feltrinelli",
 "url": "/2015/04/allende-la-casa-degli-spiriti",
 "date": "2015-04-05 22:00:00 +0200"
+},
+{
+"title": "La lettera viola, Legittimo Brigantaggio / Le intermittenze delle morte, José Saramago",
+"category": "musicalmente tratto",
+"tags": "musicalmente tratto, le intermittenze della morte, josé saramago, legittimo brigantaggio",
+"url": "/2015/04/legittimo-brigantaggio-la-lettera-viola",
+"date": "2015-04-03 11:30:00 +0200"
+},
+{
+"title": "Tutto pronto per la prima rubrica!",
+"category": "senza categoria",
+"tags": "",
+"url": "/2015/04/musicalmente-tratto",
+"date": "2015-04-01 23:00:00 +0200"
 },
 {
 "title": "Il giovane Holden, J.D. Salinger",
@@ -690,6 +746,13 @@
 "category": "blog",
 "tags": "",
 "url": "/c/concorsi/",
+"date": ""
+},
+{
+"title": "Post nella categoria &quot;musicalmente tratto&quot;",
+"category": "blog",
+"tags": "",
+"url": "/c/musicalmente-tratto/",
 "date": ""
 },
 {
@@ -1071,6 +1134,20 @@
 "date": ""
 },
 {
+"title": "Post con tag &quot;musicalmente tratto&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/musicalmente-tratto/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;legittimo brigantaggio&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/legittimo-brigantaggio/",
+"date": ""
+},
+{
 "title": "Post con tag &quot;isabel allende&quot;",
 "category": "blog",
 "tags": "",
@@ -1089,6 +1166,27 @@
 "category": "blog",
 "tags": "",
 "url": "/t/letteratura-sudamericana/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;il mondo nuovo&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/il-mondo-nuovo/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;aldous huxley&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/aldous-huxley/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;iron maiden&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/iron-maiden/",
 "date": ""
 },
 {
@@ -1124,6 +1222,27 @@
 "category": "blog",
 "tags": "",
 "url": "/t/zia-mame/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;canto di natale&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/canto-di-natale/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;charles dickens&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/charles-dickens/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;riul doamnei&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/riul-doamnei/",
 "date": ""
 },
 {
@@ -1173,6 +1292,20 @@
 "category": "blog",
 "tags": "",
 "url": "/t/doppio-sogno/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;edgar allan poe&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/edgar-allan-poe/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;opera magna&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/opera-magna/",
 "date": ""
 },
 {
@@ -1313,6 +1446,27 @@
 "category": "blog",
 "tags": "",
 "url": "/t/la-lotteria/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;il fantasma dell&#39;opera&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/il-fantasma-dell'opera/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;gaston leroux&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/gaston-leroux/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;nightwish&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/nightwish/",
 "date": ""
 },
 {
@@ -1589,6 +1743,27 @@
 "date": ""
 },
 {
+"title": "Post con tag &quot;per chi suona la campana&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/per-chi-suona-la-campana/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;ernest hemingway&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/ernest-hemingway/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;metallica&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/metallica/",
+"date": ""
+},
+{
 "title": "Post con tag &quot;yasmina reza&quot;",
 "category": "blog",
 "tags": "",
@@ -1796,6 +1971,13 @@
 "category": "blog",
 "tags": "",
 "url": "/t/herman-melville/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;ahab&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/ahab/",
 "date": ""
 },
 {
