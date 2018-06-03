@@ -53,3 +53,12 @@ function toggleDropdown(dropdownId, hasIcon) {
     icon.classList.toggle('ion-ios-arrow-down');
   }
 }
+
+function toggleInformativaPrivacy() {
+  var box = this.document.getElementById('box-informativa-privacy');
+  box.classList.toggle('is-hidden');
+
+  var icon = this.document.getElementById('icon-informativa-privacy');
+  icon.classList.toggle('ion-ios-arrow-up');
+  icon.classList.toggle('ion-ios-arrow-down');
+}

@@ -476,15 +476,33 @@ data-tooltip="Visualizza tutti i post con tag &quot;einaudi&quot;">einaudi</a>
 </section>
 </div>
 </div>
-<div class="tile is-child notification is-danger">
+<div class="notification is-danger">
 <div class="content">
 <p class="heading is-size-4">Supportaci</p>
 <p class="heading is-size-6">Ti senti generoso/a?
 <br>
-<a class="has-text-weight-bold" href="https://ko-fi.com/A1361Y5J" target="_blank">Offrici un caffè</a> oppure fai i tuoi acquisti su Amazon partendo da un
-<a class="has-text-weight-bold" href="" target="_blank">nostro link affiliato</a>!</p>
+<a
+class="has-text-weight-bold"
+href="https://ko-fi.com/A1361Y5J"
+target="_blank">Offrici un caffè</a> oppure fai i tuoi acquisti su Amazon partendo da un
+<a
+class="has-text-weight-bold"
+href="https://amzn.to/2qGPDoY"
+target="_blank">nostro link affiliato</a>!</p>
 <p>
-<a class="button is-link heading is-full-width is-medium" href="http://diquestolibroedeglialtri.review/come-supportarci">Scopri di più</a>
+<a
+class="button is-link heading is-full-width is-medium"
+href="http://diquestolibroedeglialtri.review/come-supportarci">Scopri di più</a>
+</p>
+</div>
+</div>
+<div class="notification is-light">
+<div class="content">
+<p class="heading is-size-4">General Data Protection Regulation</p>
+<p class="heading is-size-6">
+<a
+class="button is-warning heading"
+onclick="javascript:toggleModal('modal-gdpr');">Modifica preferenze</a>
 </p>
 </div>
 </div>
@@ -498,9 +516,6 @@ data-tooltip="Visualizza tutti i post con tag &quot;einaudi&quot;">einaudi</a>
 <div class="content">
 <p class="heading is-size-7">Questo blog non rappresenta una testata giornalistica in quanto viene aggiornato senza alcuna periodicità, non può pertanto considerarsi un prodotto editoriale ai sensi della legge num.&nbsp;62 del 7.03.2001.</p>
 <p class="heading is-size-7">I testi citati e le immagini pubblicate su questo blog sono copyright delle case editrici, degli autori e delle agenzie che ne detengono i diritti. La loro pubblicazione totale o parziale non intende violare alcun copyright e non avviene a scopo di lucro. Tutti i contenuti devono intendersi unicamente come opinioni personali.</p>
-<p class="heading is-size-7">
-<a href="http://diquestolibroedeglialtri.review/informativa-cookie">Informativa cookie</a>
-</p>
 </div>
 </div>
 </div>
@@ -512,38 +527,71 @@ data-tooltip="Visualizza tutti i post con tag &quot;einaudi&quot;">einaudi</a>
 <p class="heading is-size-7">Coded with ❤️ using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> and <a href="https://bulma.io" target="_blank">Bulma</a>. Hosted on <a href="https://github.com/alessandrococco/diquestolibroedeglialtri" target="_blank">GitHub</a>.</p>
 <p class="heading is-size-7">&copy; 2014-18 Alessandro Cocco - All rights reserved.</p>
 </p>
-<p class="heading is-size-7">Current version: 8.3</p>
+<p class="heading is-size-7">Current version: 8.4</p>
 </div>
 </footer>
 </div>
-<div class="container cookie-bar">
-<div class="columns is-marginless">
-<div class="column is-paddingless is-12-mobile is-offset-0-tablet is-12-tablet is-offset-1-desktop is-10-desktop">
-<div class="notification is-white">
+<div id="modal-gdpr" class="modal">
+<div class="modal-background" onclick="javascript:toggleModal('modal-gdpr');"></div>
+<div class="modal-card">
+<header class="modal-card-head">
+<p class="modal-card-title heading">
+<span class="is-size-6-mobile is-size-5-tablet is-block">General Data Protection Regulation</span>
+<span class="is-size-7-mobile is-size-6-tablet is-block">Regolamento UE 2016/679</span>
+</p>
+</header>
+<section class="modal-card-body">
 <div class="content">
-<p class="has-text-centered is-uppercase is-size-7">
-Questo sito utilizza i cookie per offrire una migliore esperienza di navigazione, continuando la visita ne accetti l'utilizzo.
+<p>
+Ormai sarai stufo/a di vedere avvisi di questo tipo&hellip; ma noi non vogliamo farci mancare nulla e il nostro te lo mostriamo lo stesso 😜
 </p>
-<p class="has-text-centered">
-<a class="button heading is-small is-inline-block is-success is-confirm-button">OK</a>
-<a class="button heading is-small is-inline-block is-outlined is-link is-read-more-button" href="http://diquestolibroedeglialtri.review/informativa-cookie">Leggi informativa completa</a>
+<p>
+Su <strong>di questo libro e degli altri</strong> utilizziamo un servizio di web analytics ("tracker") a <u>soli fini statistici</u> (quali sono le pagine più visitate, ecc.) <strong>Ogni informazione raccolta è rigorosamente <u>anonima</u></strong>. Facciamo notare che <strong>il tracker non viene usato a fini commerciali ma solo per analizzare il successo del sito</strong>: sapere che un certo post è stato letto migliaia di volte ci fa piacere <em>(abbiamo il nostro ego da alimentare!)</em> e magari ci spinge a scriverne altri simili 🙂
+</p>
+<div class="notification is-success">
+Cliccando su <strong>AUTORIZZO</strong> ci darai il permesso di usare il tracker per seguire, in modo <u>completamente anonimo</u>, la tua visita su <strong>di questo libro e degli altri</strong>.
+</div>
+<div class="notification">
+Cliccando su <strong>Non autorizzo</strong> rispetteremo la tua scelta e il nostro tracker non verrà attivato.
+</div>
+<p>
+In qualsiasi momento potrai modificare la tua scelta.
+</p>
+<p>
+<a
+href="#informativa-privacy"
+class="button heading"
+onclick="javascript:toggleInformativaPrivacy()">Leggi l'informativa completa&nbsp;<i id="icon-informativa-privacy" class="icon is-small ion-ios-arrow-down"></i></a>
+<div id="box-informativa-privacy" class="notification is-hidden">
+<p>
+<a name="informativa-privacy"></a>
+<ul>
+<li>Il tracker che usiamo si chiama <a href="https://woopra.com" target="_blank">Woopra</a> e il cookie è <code>wooTracker</code></li>
+<li>Il tracker ci permette di analizzare come un visitatore interagisce con il sito (le classiche domande esistenziali insomma: <em>Da dove arriva? Cosa cerca su <strong>di questo libro e degli altri</strong>? Ha trovato quello che cercava o ci ha abbandonato dopo neanche dieci secondi? E perché se ne è andato subito?</em>)</li>
+<li>Tra le informazioni raccolte sull'utente (<u>sempre e solo a fini statistici</u>) ci sono per esempio la provenienza geografica approssimativa ("Roma", "Milano", ecc.), il sistema operativo usato (Windows, Linux, Android&hellip;), il tempo di visita, ecc. <strong> Si tratta di informazioni che non ci permettono in alcun modo di risalire all'identità del visitatore</strong></li>
+</ul>
 </p>
 </div>
+</p>
 </div>
+</section>
+<footer class="modal-card-foot">
+<button
+id="button-gdpr-yes"
+class="button is-success is-uppercase">Autorizzo</button>
+<button
+id="button-gdpr-no"
+class="button is-outlined">Non autorizzo</button>
+</footer>
 </div>
-</div>
+<button class="modal-close is-large" aria-label="close"></button>
 </div>
 <div id="modal-search" class="modal">
-<div
-class="modal-background"
-onclick="javascript:toggleModal('modal-search')"></div>
+<div class="modal-background" onclick="javascript:toggleModal('modal-search');"></div>
 <section class="modal-content">
 <div class="field">
 <div class="control has-icons-right">
-<input id="search-input"
-class="input is-rounded is-medium"
-type="text"
-placeholder="Cerca nel sito&hellip;">
+<input id="search-input" class="input is-rounded is-medium" type="text" placeholder="Cerca nel sito&hellip;">
 <span class="icon is-right">
 <i class="ion-search"></i>
 </span>
@@ -551,24 +599,9 @@ placeholder="Cerca nel sito&hellip;">
 </div>
 <div id="search-result" class="search-result"></div>
 </section>
-<button
-class="modal-close is-large"
-aria-label="close"
-onclick="javascript:toggleModal('modal-search')"></button>
+<button class="modal-close is-large" aria-label="close" onclick="javascript:toggleModal('modal-search')"></button>
 </div>
 <script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/jekyll-search.min.js"></script>
-<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/main.js"></script>
-<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/cookies.min.js"></script>
-<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/cookie-policy.js"></script>
-<script>
-(function(){
-var t,i,e,n=window,o=document,a=arguments,s="script",r=["config","track","identify","visit","push","call","trackForm","trackClick"],c=function(){var t,i=this;for(i._e=[],t=0;r.length>t;t++)(function(t){i[t]=function(){return i._e.push([t].concat(Array.prototype.slice.call(arguments,0))),i}})(r[t])};for(n._w=n._w||{},t=0;a.length>t;t++)n._w[a[t]]=n[a[t]]=n[a[t]]||new c;i=o.createElement(s),i.async=1,i.src="//static.woopra.com/js/w.js",e=o.getElementsByTagName(s)[0],e.parentNode.insertBefore(i,e)
-})("woopra");
-woopra.config({
-domain: 'diquestolibroedeglialtri.review'
-});
-woopra.track();
-</script>
 <script>
 SimpleJekyllSearch({
 searchInput: document.getElementById('search-input'),
@@ -579,6 +612,9 @@ noResultsText: '<span class="search-result-no-items is-uppercase is-block is-siz
 limit: 10
 });
 </script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/main.js"></script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/cookies.min.js"></script>
+<script type="application/javascript" charset="UTF-8" src="http://diquestolibroedeglialtri.review/resources/js/gdpr.js"></script>
 <script>
 var disqus_config = function () {
 this.page.url = 'http://diquestolibroedeglialtri.review/2015/04/iron-maiden-brave-new-world';
