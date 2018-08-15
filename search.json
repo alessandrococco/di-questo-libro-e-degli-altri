@@ -1,5 +1,12 @@
 [
 {
+"title": "Ferragosto",
+"category": "citazioni",
+"tags": "citazione, pier paolo pasolini",
+"url": "/2018/08/pasolini-ferragosto",
+"date": "2018-08-15 09:00:00 +0200"
+},
+{
 "title": "A cosa serve questo pulsante?: Autobiografia, Bruce Dickinson",
 "category": "recensioni",
 "tags": "recensione, a cosa serve questo pulsante?, bruce dickinson, autobiografia, harpercollins italia",
@@ -753,6 +760,13 @@
 "category": "blog",
 "tags": "",
 "url": "/c/musicalmente-tratto/",
+"date": ""
+},
+{
+"title": "Post nella categoria &quot;citazioni&quot;",
+"category": "blog",
+"tags": "",
+"url": "/c/citazioni/",
 "date": ""
 },
 {
@@ -2132,6 +2146,20 @@
 "category": "blog",
 "tags": "",
 "url": "/t/harpercollins-italia/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;citazione&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/citazione/",
+"date": ""
+},
+{
+"title": "Post con tag &quot;pier paolo pasolini&quot;",
+"category": "blog",
+"tags": "",
+"url": "/t/pier-paolo-pasolini/",
 "date": ""
 },
 {}

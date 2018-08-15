@@ -37,10 +37,17 @@ figure img {
   text-decoration: none;
 }
 
+.citazioni p:first-of-type,
 .content blockquote {
   font-style: italic;
   border: 0;
+}
+blockquote {
   font-size: 1.25rem;
+}
+
+.citazioni p:first-of-type {
+  font-size: 1.65rem;
 }
 
 .navigation-bar,
@@ -334,6 +341,7 @@ print {
 @media screen and (max-width: 769px),
 print {
   .message-body,
+  .citazioni p:first-of-type,
   .content blockquote {
     padding: 1.25rem 1rem;
   }
