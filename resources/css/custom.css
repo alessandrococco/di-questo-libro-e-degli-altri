@@ -63,10 +63,6 @@ blockquote {
   margin: 1.5rem auto;
 }
 
-#disqus_thread {
-  margin: 2rem 0;
-}
-
 .navigation-bar>.notification {
   border-top-right-radius: 0;
   border-top-left-radius: 0;
